@@ -1,0 +1,67 @@
+@font-face {
+    font-family: futura;
+    src: url(/mp100/wp-content/themes/maintheme/assets/images/customimages/FuturaPT-Demi.woff) format("woff"), url(/mp100/wp-content/themes/maintheme/assets/images/customimages/FuturaPT-Demi.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500
+}
+
+@font-face {
+    font-family: futura;
+    src: url(/mp100/wp-content/themes/maintheme/assets/images/customimages/FuturaPT-Heavy.woff) format("woff"), url(/mp100/wp-content/themes/maintheme/assets/images/customimages/FuturaPT-Heavy.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700
+}
+
+@font-face {
+    font-family: futura;
+    src: url(/mp100/wp-content/themes/maintheme/assets/images/customimages/FuturaPT-Medium.woff) format("woff"), url(/mp100/wp-content/themes/maintheme/assets/images/customimages/FuturaPT-Medium.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: futuracond;
+    src: url(/mp100/wp-content/themes/maintheme/assets/images/customimages/FuturaPTCond-Bold.woff) format("woff"), url(/mp100/wp-content/themes/maintheme/assets/images/customimages/FuturaPTCond-Bold.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600
+}
+
+@font-face {
+    font-family: futuracond;
+    src: url(/mp100/wp-content/themes/maintheme/assets/images/customimages/FuturaPTCond-ExtraBold.woff) format("woff"), url(/mp100/wp-content/themes/maintheme/assets/images/customimages/FuturaPTCond-ExtraBold.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 800
+}
+
+body {
+    margin: 0
+}
+
+.loading-container {
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transition: opacity .8s ease;
+    overflow: hidden
+}
+
+stb-root.user-checked+.loading-container {
+    opacity: 0
+}
+
+stb-root.user-checked.hide-preloader+.loading-container {
+    display: none
+}
+
+.grecaptcha-badge {
+    visibility: hidden
+}

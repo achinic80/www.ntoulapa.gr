@@ -1,0 +1,396 @@
+﻿
+    :root {
+      --swiper-theme-color: #007aff;
+    }
+
+    :root {
+      --swiper-navigation-size: 44px;
+    }
+
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+    body {
+      -webkit-: none;
+      : none;
+    }
+
+    * {
+      box-sizing: inherit;
+    }
+
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+
+    * {
+      padding: 0;
+    }
+
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --font-family-base: "FuturaCond", sans-serif;
+      --font-family-primary: "Futura", sans-serif;
+      --transitionTime: 0.2s;
+      --containerPadding: 16px;
+    }
+
+    @media screen and (min-width:768px) {
+      :root {
+        --containerPadding: 24px;
+      }
+    }
+
+    @media screen and (min-width:1024px) {
+      :root {
+        --containerPadding: 40px;
+      }
+    }
+
+    @media screen and (min-width:1440px) {
+      :root {
+        --containerPadding: 68px;
+      }
+    }
+
+    @media screen and (min-width:1920px) {
+      :root {
+        --containerPadding: 100px;
+      }
+    }
+
+    html {
+      font-family: var(--font-family-base);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: inherit;
+      line-height: inherit;
+      color: rgb(var(--white-1000));
+      background: rgb(var(--background-casino));
+    }
+
+    img {
+      display: block;
+    }
+
+    :root {
+      --games-gap: 12px;
+      --games-gradient-start: 50px;
+      --games-gradient-end: 157px;
+    }
+
+    @media screen and (min-width:540px) {
+      :root {
+        --games-gradient-end: 173px;
+      }
+    }
+
+    @media screen and (min-width:768px) {
+      :root {
+        --games-gradient-end: 219px;
+      }
+    }
+
+    @media screen and (min-width:1024px) {
+      :root {
+        --games-gap: 15px;
+        --games-gradient-end: 229px;
+      }
+    }
+
+    @media screen and (min-width:1280px) {
+      :root {
+        --games-gradient-end: 215px;
+      }
+    }
+
+    :root {
+      --stb-radio-group__margin-right: 13px;
+      --stb-radio-button__dot-width: 100%;
+      --stb-radio-button__dot-height: 100%;
+      --stb-radio-button__dot-box-shadow: none;
+      --stb-radio-button__dot-background: transparent;
+      --stb-control-error__min-height: 24px;
+      --stb-control-error__padding: 4px 5px 8px;
+      --stb-control-error__color: rgb(var(--errorColor));
+      --stb-control-error__font-size: 12px;
+      --stb-control-error__transition: font-size 0.2s;
+      --stb-checkbox__content-padding: 6px;
+      --stb-checkbox__content-font-size: 13px;
+      --stb-checkbox__content-line-height: 1.6;
+      --stb-checkbox__content-color: var(--white-1000);
+      --stb-checkbox__check-field-width: 20px;
+      --stb-checkbox__check-field-height: 20px;
+      --stb-checkbox__check-field-padding: 1px;
+      --stb-checkbox__check-field-bg: var(--green-1000);
+      --stb-checkbox__check-field-color: var(--green-1000);
+      --stb-checkbox__check-field-border-radius: 6px;
+      --stb-checkbox__check-field-border-color: var(--neutral-400);
+    }
+
+    :root {
+      --stb-input-text__input-padding: unset;
+      --stb-input-password__input-padding-top: unset;
+      --stb-input-password__input-padding-bottom: unset;
+      --stb-input-text__label-top: unset;
+      --stb-input-text__placeholder-top: unset;
+      --stb-input-text__placeholder-font-size: unset;
+    }
+
+    :root {
+      --white-1000: 255, 255, 255;
+      --black-800: 31, 33, 38;
+      --black-700: 23, 28, 39;
+      --red-1000: 253, 53, 92;
+      --red-900: 244, 67, 54;
+      --green-900: 8, 201, 143;
+      --green-1000: 0, 200, 83;
+      --yellow-1000: 255, 214, 0;
+      --yellow-900: 255, 229, 145;
+      --yellow-800: 255, 160, 0;
+      --yellow-700: 251, 192, 45;
+      --purple-1000: 131, 66, 237;
+      --purple-900: 120, 87, 217;
+      --purple-650: 104, 41, 206;
+      --purple-600: 45, 25, 110;
+      --purple-550: 44, 19, 98;
+      --purple-500: 24, 8, 76;
+      --purple-450: 34, 10, 65;
+      --purple-400: 38, 18, 100;
+      --purple-370: 56, 16, 105;
+      --purple-350: 61, 7, 131;
+      --purple-300: 113, 56, 209;
+      --purple-200: 82, 78, 114;
+      --purple-100: 140, 135, 179;
+      --blue-800: 8, 20, 76;
+      --blue-400: 53, 134, 255;
+      --blue-300: 25, 53, 110;
+      --blue-200: 42, 120, 238;
+      --blue-100: 85, 201, 255;
+      --neutral-dark: 0, 0, 0;
+      --neutral-1000: 20, 20, 20;
+      --neutral-900: 31, 31, 31;
+      --neutral-800: 51, 51, 51;
+      --neutral-700: 84, 84, 84;
+      --neutral-600: 117, 117, 117;
+      --neutral-500: 175, 175, 175;
+      --neutral-400: 203, 203, 203;
+      --neutral-300: 226, 226, 226;
+      --neutral-200: 238, 238, 238;
+      --neutral-100: 246, 246, 246;
+      --primary-color: 255, 216, 107;
+      --secondary-color-blue: 100, 193, 255;
+      --primary-text-color: rgb(var(--white-1000));
+      --secondary-text-color: 91, 102, 124;
+      --tertiary-text-color: 179, 172, 210;
+      --link-color-primary: 255, 227, 142;
+      --link-color-secondary: 166, 113, 253;
+      --blue-navigation: 41, 121, 255;
+      --button-text-dark: 107, 64, 0;
+      --background-casino: 22, 8, 64;
+      --background-sport: 0, 17, 51;
+      --background-secondary: 245, 246, 251;
+      --background-contrast: 9, 10, 11;
+      --background-footer: 4, 3, 9;
+      --primary-box-shadow-color: 223, 152, 70;
+      --secondary-box-shadow-color: 82, 27, 171;
+      --warn-box-shadow-color: 34, 80, 199;
+      --banner-primary-color: 255, 217, 109;
+      --button-border-color: 104, 41, 206;
+      --wall-of-wins-shadow-color: 162, 107, 253;
+      --primary-color-gradient: linear-gradient(rgb(var(--primary-color)), #ffbd59);
+      --secondary-color-gradient: linear-gradient(rgb(var(--purple-1000)), rgb(var(--purple-650)));
+      --warn-color-gradient: linear-gradient(rgb(var(--secondary-color-blue)), #2e72d7);
+    }
+
+    .preloader {
+      background-color: rgb(var(--background-casino));
+    }
+
+    .preloader:before {
+      background-image: url(/mp100/wp-content/themes/maintheme/assets/images/customimages/two-stars.png);
+      top: 10%;
+      left: 10%;
+      width: 75px;
+      height: 80px;
+    }
+
+    .preloader:after,
+    .preloader:before {
+      position: absolute;
+      content: "";
+      background-repeat: no-repeat;
+    }
+
+    .preloader:after {
+      background-image: url(/mp100/wp-content/themes/maintheme/assets/images/customimages/three-stars.png);
+      bottom: 20%;
+      right: 10%;
+      width: 129px;
+      height: 117px;
+    }
+
+    .preloader--logo {
+      position: relative;
+      width: 300px;
+      height: auto;
+    }
+
+    @media screen and (min-width:1280px) {
+      .preloader--logo {
+        width: 520px;
+      }
+    }
+
+    .preloader--logo:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      transform: translate(-13%, -45%);
+      background: radial-gradient(50% 50% at 50% 50%, #4d1dc7 0, rgba(65, 35, 139, .5) 50%, rgba(5, 2, 12, 0) 100%);
+      opacity: .5;
+      width: 400px;
+      height: 400px;
+      z-index: -1;
+    }
+
+    @media screen and (min-width:1280px) {
+      .preloader--logo:before {
+        transform: translate(-25%, -45%);
+        width: 1000px;
+        height: 1000px;
+      }
+    }
+
+    .preloader--logo:after {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      background-image: url(/mp100/wp-content/themes/maintheme/assets/images/customimages/preloader-star.svg);
+      background-repeat: no-repeat;
+      transform: translate(-13%, -70%);
+      width: 400px;
+      height: 400px;
+      z-index: -1;
+    }
+
+    @media screen and (min-width:1280px) {
+      .preloader--logo:after {
+        transform: translate(-7%, -70%);
+        width: 600px;
+        height: 600px;
+      }
+    }
+
+    
+    
+
+    .button._primary[_ngcontent-nek-c139] {
+      color: #6B4000;
+      background: #FFD768;
+      box-shadow: 0 0.2em 0 #DF9846;
+      border-radius: 10px;
+      padding: 12px 32px;
+      height: 38px;
+      min-width: 111px;
+      font-size: 14px;
+      position: relative;
+      font-weight: 800;
+      line-height: 100%;
+      letter-spacing: .06em;
+      ;
+      text-decoration: none;
+      cursor: pointer;
+      max-width: 100%;
+      transition: box-shadow .2s linear,transform .2s linear;
+  }
+
+
+  .button._primary[_ngcontent-qvm-c139] {
+    color: #6B4000;
+    background: #FFD768;
+    box-shadow: 0 0.2em 0 #DF9846;
+    border-radius: 10px;
+    padding: 12px 32px;
+    height: 38px;
+    min-width: 111px;
+    font-size: 14px;
+    position: relative;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: .06em;
+    ;
+    text-decoration: none;
+    cursor: pointer;
+    max-width: 100%;
+    transition: box-shadow .2s linear,transform .2s linear;
+}
+
+
+
+  .button._warn[_ngcontent-qvm-c139] {
+    color: var(--text-warn);
+    background: #56B8FF;
+    box-shadow: 0 0.2em 0 #2250C7;
+    border-radius: 10px;
+    padding: 12px 32px;
+    height: 38px;
+    min-width: 111px;
+    font-size: 14px;
+    --text-warn: rgb(var(--white-1000));
+    --bg-warn: rgb(var(--secondary-color-blue));
+    position: relative;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: .06em;
+    ;
+    text-decoration: none;
+    cursor: pointer;
+    max-width: 100%;
+    transition: box-shadow .2s linear,transform .2s linear;
+}
+
+
+
+.button._secondary[_ngcontent-qvm-c139] {
+    color: var(--text-secondary);
+    background: #753AEB;
+    box-shadow: 0 0.2em 0 #521BAB;
+    border-radius: 10px;
+    padding: 12px 32px;
+    height: 38px;
+    min-width: 111px;
+    font-size: 14px;
+     --text-secondary: rgb(var(--white-1000));
+    --bg-secondary: rgb(var(--purple-1000));
+    position: relative;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: .06em;
+    ;
+    text-decoration: none;
+    cursor: pointer;
+    max-width: 100%;
+    transition: box-shadow .2s linear,transform .2s linear;
+}

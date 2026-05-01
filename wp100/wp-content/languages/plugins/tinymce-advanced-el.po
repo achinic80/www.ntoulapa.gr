@@ -1,0 +1,458 @@
+# Translation of Plugins - Advanced Editor Tools - Stable (latest release) in Greek
+# This file is distributed under the same license as the Plugins - Advanced Editor Tools - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-11-25 14:30:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - Advanced Editor Tools - Stable (latest release)\n"
+
+#: tadv_admin.php:168
+msgid "Disable"
+msgstr "Ανενεργό"
+
+#: tadv_admin.php:164
+msgid "Enable"
+msgstr "Ενεργό"
+
+#: tadv_admin.php:158
+msgid "The <b>Clear formatting</b> button will remove text formatting from the selected text, or from the whole paragraph if there is no selection. This includes femoval of most text styling like bold, italic, underline, background and foreground color, etc."
+msgstr "Το κουμπί <b>Καθαρισμός μορφοποίησης</b> αφαιρεί τη μορφοποίηση από το επιλεγμένο κείμενο ή από ολόκληρη την παράγραφο αν δεν υπάρχει επιλογή. Αυτό περιλαμβάνει την αφαίρεση της περισσότερης μορφοποίησης κειμένου όπως έντονα, πλάγια, υπογράμμιση, χρώμα φόντου και προσκείμενο, κλπ."
+
+#: tadv_admin.php:155
+msgid "The <b>Mark</b> button will wrap the selected text in a plain &lt;mark&gt; HTML element. The appearance would depend on your theme and usually resembles highlighted text."
+msgstr "Το κουμπί <b>Mark</b> θα περιβάλλει το επιλεγμένο κείμενο σε ένα απλό HTML στοιχείο &lt;mark&gt;. Η εμφάνιση εξαρτάται από το θέμα σας και συνήθως μοιάζει με επισημασμένο κείμενο."
+
+#: tadv_admin.php:151
+msgid "Additional buttons for the Rich-Text toolbar"
+msgstr "Επιπλέον κουμπιά για τη γραμμή εργαλείων Μορφοποιημένου Κειμένου"
+
+#: tadv_admin.php:726
+msgid "Instances of the Classic editor on the front end of the site"
+msgstr "Εμφανίσεις του Κλασικού επεξεργαστή στο frontend του ιστότοπου"
+
+#: tadv_admin.php:722
+msgid "Other instances of the Classic (TinyMCE) editor in wp-admin"
+msgstr "Άλλες εμφανίσεις του Κλασικού (TinyMCE) επεξεργαστή στο wp-admin"
+
+#: tadv_admin.php:739
+msgid "Please note: This plugin was renamed from \"TinyMCE Advanced\" to \"Advanced Editor Tools\". The plugin functionality remains the same."
+msgstr "Σημείωση: Το πρόσθετο μετονομάστηκε από «TinyMCE Advanced» σε «Advanced Editor Tools». Η λειτουργικότητα του πρόσθετου παραμένει ίδια."
+
+#: tadv_admin.php:43
+msgid "Advanced Editor Tools Settings Import"
+msgstr "Εισαγωγή Ρυθμίσεων Advanced Editor Tools"
+
+#. Plugin Name of the plugin
+#: tadv_admin.php:117 tinymce-advanced.php:1158 tinymce-advanced.php:1159
+msgid "Advanced Editor Tools"
+msgstr "Advanced Editor Tools"
+
+#. Author URI of the plugin
+msgid "https://automattic.com"
+msgstr "https://automattic.com"
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/tinymce-advanced/"
+msgstr "https://wordpress.org/plugins/tinymce-advanced/"
+
+#. Description of the plugin
+msgid "Extends and enhances the block editor (Gutenberg) and the classic editor (TinyMCE)."
+msgstr "Επεκτείνει και βελτιώνει τον Επεξεργαστή Blocks (Gutenberg) και τον Κλασικό Επεξεργαστή (TinyMCE)."
+
+#: tadv_admin.php:603
+msgid "Keep paragraph tags in the Classic block and the Classic Editor"
+msgstr "Διατηρήστε τα tags παραγράφου στο Κλασικό block και στον Κλασικό Επεξεργαστή"
+
+#: tinymce-advanced.php:812
+msgid "Clear formatting"
+msgstr "Αφαίρεση μορφοποίησης"
+
+#: tadv_admin.php:706
+msgid "It is important that the exported file is not edited in any way."
+msgstr "Είναι σημαντικό το εξαγόμενο αρχείο να μην επεξεργαστεί με κανέναν τρόπο."
+
+#: tadv_admin.php:694
+msgid "To keep the table more responsive please use percentage values when setting widths."
+msgstr "Για να παραμείνει ο πίνακας πιο ευέλικτος (responsive), χρησιμοποιήστε ποσοστά κατά τον καθορισμό των πλάτων."
+
+#: tadv_admin.php:690
+msgid "The advanced tabs allow setting of inline CSS styles on the table, each row, and each cell. They have fields for easier setting of border, border color and background color styles."
+msgstr "Οι προχωρημένες καρτέλες επιτρέπουν τον ορισμό ενσωματωμένων CSS στυλ στον πίνακα, σε κάθε γραμμή και σε κάθε κελί. Διαθέτουν πεδία για ευκολότερο καθορισμό περιγράμματος, χρώματος περιγράμματος και χρώματος φόντου."
+
+#: tadv_admin.php:688
+msgid "Show the advanced tabs in the table properties dialogs"
+msgstr "Εμφάνιση των προχωρημένων καρτελών στα παράθυρα ιδιοτήτων πίνακα"
+
+#: tadv_admin.php:683
+msgid "When disabled, pressing the tab key will jump outside the editor area."
+msgstr "Όταν απενεργοποιηθεί, η πίεση του πλήκτρου Tab θα μεταφέρει τον κέρσορα έξω από την περιοχή του επεξεργαστή."
+
+#: tadv_admin.php:681
+msgid "Jump to the next cell when pressing the tab key while editing a table"
+msgstr "Μετάβαση στο επόμενο κελί πατώντας το πλήκτρο Tab κατά την επεξεργασία πίνακα"
+
+#: tadv_admin.php:676
+msgid "If the grid is disabled the number of rows and columns can be typed in the Insert Table dialog."
+msgstr "Αν το πλέγμα είναι απενεργοποιημένο, ο αριθμός γραμμών και στηλών μπορεί να πληκτρολογηθεί στο παράθυρο διαλόγου Εισαγωγής Πίνακα."
+
+#: tadv_admin.php:674
+msgid "When inserting a table show a grid where the number of rows and columns can be selected by dragging with the mouse"
+msgstr "Κατά την εισαγωγή πίνακα, εμφανίζεται ένα πλέγμα όπου ο αριθμός γραμμών και στηλών μπορεί να επιλεγεί σύροντας με το ποντίκι"
+
+#: tadv_admin.php:669
+msgid "This will add a border around the table unless it is overriden by your theme."
+msgstr "Αυτό θα προσθέσει περίγραμμα γύρω από τον πίνακα εκτός αν υπερισχύεται από το θέμα σας."
+
+#: tadv_admin.php:667
+msgid "When inserting a table set the HTML border attribute to 1"
+msgstr "Κατά την εισαγωγή πίνακα, ορίστε το χαρακτηριστικό HTML border σε 1"
+
+#: tadv_admin.php:662
+msgid "This option does not affect inline styles on tables in existing posts. To reset table size or remove all formatting for the whole table please see the two buttons at the bottom of the Format menu."
+msgstr "Αυτή η επιλογή δεν επηρεάζει τα ενσωματωμένα στυλ σε πίνακες υπαρχουσών δημοσιεύσεων. Για να επαναφέρετε το μέγεθος του πίνακα ή να αφαιρέσετε όλη τη μορφοποίηση για ολόκληρο τον πίνακα, δείτε τα δύο κουμπιά στο κάτω μέρος του μενού Μορφοποίησης."
+
+#: tadv_admin.php:658
+msgid "Then the table, the rows and the cells can be resized by typing the size values in the advanced options tabs."
+msgstr "Στη συνέχεια, ο πίνακας, οι γραμμές και τα κελιά μπορούν να αλλάξουν μέγεθος πληκτρολογώντας τις τιμές μεγέθους στις καρτέλες προχωρημένων επιλογών."
+
+#: tadv_admin.php:657
+msgid "Disabling this option will stop the editor from adding inline CSS styles and will produce cleaner HTML code."
+msgstr "Η απενεργοποίηση αυτής της επιλογής θα σταματήσει τον επεξεργαστή από την προσθήκη ενσωματωμένων CSS στυλ και θα παράγει καθαρότερο HTML κώδικα."
+
+#: tadv_admin.php:654
+msgid "When a row or a column is resized the inline styles are updated on all table rows and cells."
+msgstr "Όταν αλλάζει το μέγεθος μιας γραμμής ή στήλης, τα ενσωματωμένα στυλ ενημερώνονται για όλες τις γραμμές και τα κελιά του πίνακα."
+
+#: tadv_admin.php:653
+msgid "This may override some styles that are set by your theme and usually makes the table non-responsive when viewed on a small screen like a smartphone."
+msgstr "Αυτό μπορεί να υπερισχύσει κάποιων στυλ που έχει ορίσει το θέμα σας και συνήθως καθιστά τον πίνακα μη ευέλικτο (non-responsive) σε μικρές οθόνες, όπως σε smartphone."
+
+#: tadv_admin.php:652
+msgid "When enabled the whole table, rows, and columns can be resized by dragging but the sizes are set with inline CSS styles."
+msgstr "Όταν ενεργοποιηθεί, ολόκληρος ο πίνακας, οι γραμμές και οι στήλες μπορούν να αλλάξουν μέγεθος με σύρσιμο, αλλά τα μεγέθη ορίζονται με ενσωματωμένα CSS styles."
+
+#: tadv_admin.php:650
+msgid "Enable resizing of tables, rows, and columns by dragging with the mouse"
+msgstr "Ενεργοποίηση αλλαγής μεγέθους πινάκων, γραμμών και στηλών με σύρσιμο με το ποντίκι"
+
+#: tadv_admin.php:647
+msgid "Advanced options for tables"
+msgstr "Προχωρημένες ρυθμίσεις για πίνακες"
+
+#: tadv_admin.php:605
+msgid "Stop removing &lt;p&gt; and &lt;br&gt; tags in the Classic Editor and show them in the Text tab."
+msgstr "Σταματήστε την αφαίρεση των &lt;p&gt; και &lt;br&gt; tags στον Κλασικό Επεξεργαστή και εμφανίστε τα στην καρτέλα Κείμενο."
+
+#. translators: URL to (localised) Classic Editor plugin.
+#: tadv_admin.php:591
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://el.wordpress.org/plugins/classic-editor/"
+
+#: tadv_admin.php:570
+msgid "Selecting this option also adds some improvements and fixes for the Classic block."
+msgstr "Η επιλογή αυτής της επιλογής προσθέτει επίσης κάποιες βελτιώσεις και διορθώσεις για το Κλασικό block."
+
+#: tadv_admin.php:569
+msgid "The default block is inserted on pressing Enter in the title, or clicking under the last block."
+msgstr "Το προεπιλεγμένο block εισάγεται πατώντας Enter στον τίτλο ή κάνοντας κλικ κάτω από το τελευταίο block."
+
+#: tadv_admin.php:567
+msgid "Make the Classic Paragraph or Classic block the default block (hybrid mode)"
+msgstr "Κάντε τον Κλασικό Παράγραφο ή το Κλασικό block το προεπιλεγμένο block (υβριδική λειτουργία)"
+
+#: tadv_admin.php:552
+msgid "Add Classic Paragraph block"
+msgstr "Προσθήκη μπλοκ κλασικής παραγράφου"
+
+#: tadv_admin.php:342
+msgid "Toolbars for the Classic Editor"
+msgstr "Γραμμές εργαλείων για τον Κλασικό Επεξεργαστή"
+
+#: tadv_admin.php:296
+msgid "Unused Buttons for the Classic Paragraph and Classic blocks toolbars"
+msgstr "Αχρησιμοποίητα κουμπιά για τις γραμμές εργαλείων του Κλασικού Παραγράφου και των Κλασικών blocks"
+
+#: tadv_admin.php:92
+msgid "Importing of settings failed. The imported file is invalid."
+msgstr "Η εισαγωγή ρυθμίσεων απέτυχε. Το εισαγόμενο αρχείο δεν είναι έγκυρο."
+
+#: tadv_admin.php:89
+msgid "Importing of settings failed. The imported file is empty."
+msgstr "Η εισαγωγή ρυθμίσεων απέτυχε. Το εισαγόμενο αρχείο είναι κενό."
+
+#: tadv_admin.php:86
+msgid "Importing of settings failed. Please import a valid settings file."
+msgstr "Η εισαγωγή ρυθμίσεων απέτυχε. Παρακαλώ εισάγετε ένα έγκυρο αρχείο ρυθμίσεων."
+
+#: tadv_admin.php:79 tadv_admin.php:97
+msgid "Settings imported successfully."
+msgstr "Οι ρυθμίσεις εισάχθηκαν με επιτυχία."
+
+#: tadv_admin.php:58
+msgid "Import settings from string"
+msgstr "Εισαγωγή ρυθμίσεων από συμβολοσειρά"
+
+#: tadv_admin.php:49
+msgid "Import settings"
+msgstr "Εισαγωγή Ρυθμίσεων"
+
+#: tadv_admin.php:47
+msgid "The settings are imported from a previously exported settings file."
+msgstr "Οι ρυθμίσεις εισάγονται από προηγουμένως εξαγόμενο αρχείο ρυθμίσεων."
+
+#: tinymce-advanced.php:813
+msgid "Mark"
+msgstr "Βαθμός"
+
+#: tinymce-advanced.php:793
+msgid "For use instead of the Paragraph Block. Supports transforming to and from multiple Paragraph blocks, Image, Table, List, Quote, Custom HTML, and most other blocks."
+msgstr "Για χρήση αντί του block Παραγράφου. Υποστηρίζει μετατροπή προς και από πολλαπλά blocks Παραγράφων, Εικόνα, Πίνακα, Λίστα, Παράθεση, Προσαρμοσμένο HTML και τα περισσότερα άλλα blocks."
+
+#: tadv_admin.php:560
+msgid "In addition most default blocks can be transformed into classic paragraphs, and a Classic Paragraph can be converted to multiple blocks."
+msgstr "Επιπλέον, τα περισσότερα προεπιλεγμένα blocks μπορούν να μετατραπούν σε κλασικές παραγράφους, και μια Κλασική Παράγραφος μπορεί να μετατραπεί σε πολλαπλά blocks."
+
+#: tadv_admin.php:514
+msgid "Append all buttons to the top toolbar in the Classic Paragraph and Classic blocks."
+msgstr "Προσθήκη όλων των κουμπιών στην πάνω γραμμή εργαλείων στους Κλασικούς Παραγράφους και Κλασικά blocks."
+
+#: tadv_admin.php:176
+msgid "The toolbars in the Classic Paragraph and Classic blocks are narrower and show on focus."
+msgstr "Οι γραμμές εργαλείων στους Κλασικούς Παραγράφους και Κλασικά blocks είναι πιο στενές και εμφανίζονται κατά την εστίαση."
+
+#: tadv_admin.php:173
+msgid "Toolbars for the Classic Paragraph and Classic blocks"
+msgstr "Γραμμές εργαλείων για τον Κλασικό Παράγραφο και τα Κλασικά blocks"
+
+#: tadv_admin.php:146
+msgid "Classic Editor (TinyMCE)"
+msgstr "Κλασικός Επεξεργαστής (TinyMCE)"
+
+#: tadv_admin.php:141
+msgid "Block Editor (Gutenberg)"
+msgstr "Επεξεργαστής Blocks (Gutenberg)"
+
+#: tadv_admin.php:561
+msgid "It can be used everywhere instead of the Paragraph block including in columns, when creating reusable blocks, etc."
+msgstr "Μπορεί να χρησιμοποιηθεί παντού αντί για το block Παραγράφου, συμπεριλαμβανομένων στηλών, κατά τη δημιουργία επαναχρησιμοποιήσιμων blocks κ.ά."
+
+#: tadv_admin.php:556
+msgid "Also, like the Classic block, most existing TinyMCE plugins and add-ons will continue to work."
+msgstr "Επίσης, όπως το Κλασικό block, τα περισσότερα υπάρχοντα πρόσθετα και επεκτάσεις TinyMCE θα συνεχίσουν να λειτουργούν."
+
+#: tadv_admin.php:555
+msgid "You can add multiple paragraphs, tables, galleries, embed video, set fonts and colors, and generally use everything that is available in the Classic Editor."
+msgstr "Μπορείτε να προσθέσετε πολλαπλές παραγράφους, πίνακες, συλλογές εικόνων, ενσωματωμένα βίντεο, να ορίσετε γραμματοσειρές και χρώματα και γενικά να χρησιμοποιήσετε όλα όσα είναι διαθέσιμα στον Κλασικό Επεξεργαστή."
+
+#: tadv_admin.php:554
+msgid "The Classic Paragraph block includes the familiar TinyMCE editor and is an extended and enhanced Classic block."
+msgstr "Το Κλασικό block Παραγράφου περιλαμβάνει τον γνωστό επεξεργαστή TinyMCE και είναι ένα επεκταμένο και βελτιωμένο Κλασικό block."
+
+#: tinymce-advanced.php:791
+msgid "Classic Paragraph"
+msgstr "Κλασική παράγραφος"
+
+#: tadv_admin.php:637
+msgid "Disabled:"
+msgstr "Απενεργοποιημένο:"
+
+#: tadv_admin.php:589
+msgid "If you prefer to use both editors side by side, do not enable this option. It is better to install the %1$sClassic Editor plugin%2$s."
+msgstr "Αν προτιμάτε να χρησιμοποιείτε και τους δύο επεξεργαστές παράλληλα, μην ενεργοποιήσετε αυτήν την επιλογή. Είναι καλύτερο να εγκαταστήσετε το πρόσθετο %1$sClassic Editor%2$s."
+
+#: tadv_admin.php:584
+msgid "It will allow you to use other plugins that enhance that editor, add old-style Meta Boxes, or in some way depend on the previous Edit Post screen."
+msgstr "Θα σας επιτρέψει να χρησιμοποιείτε άλλα πρόσθετα που επεκτείνουν τον επεξεργαστή, προσθέτουν Meta Boxes παλαιού τύπου ή με κάποιον τρόπο εξαρτώνται από την προηγούμενη οθόνη Επεξεργασίας Δημοσίευσης."
+
+#: tadv_admin.php:583
+msgid "Selecting this option will restore the previous (&#8220;classic&#8221;) editor and the previous Edit Post screen."
+msgstr "Η επιλογή αυτής της επιλογής θα επαναφέρει τον προηγούμενο (\"κλασικό\") επεξεργαστή και την προηγούμενη οθόνη Επεξεργασίας Δημοσίευσης."
+
+#: tadv_admin.php:581
+msgid "Replace the Block Editor with the Classic Editor"
+msgstr "Αντικαταστήστε τον Επεξεργαστή Blocks με τον Κλασικό Επεξεργαστή"
+
+#: tadv_admin.php:557
+msgid "This makes the Block Editor more familiar, easier to use, easier to get used to, and more compatible with your existing workflow."
+msgstr "Αυτό κάνει τον Επεξεργαστή Blocks πιο οικείο, πιο εύκολο στη χρήση, πιο γρήγορο στο να το συνηθίσετε και πιο συμβατό με την υπάρχουσα ροή εργασίας σας."
+
+#: tadv_admin.php:515
+msgid "This affects buttons that are added by other plugins. These buttons will be appended to the top toolbar row instead of forming second, third, and forth rows."
+msgstr "Αυτό επηρεάζει κουμπιά που προστίθενται από άλλα πρόσθετα. Αυτά τα κουμπιά θα προσαρτηθούν στην πάνω γραμμή εργαλείων αντί να δημιουργούν δεύτερη, τρίτη και τέταρτη σειρά."
+
+#: tadv_admin.php:183
+msgid "Enable the editor menu (recommended)."
+msgstr "Ενεργοποίηση του μενού επεξεργαστή (συνιστάται)."
+
+#: tadv_admin.php:178
+msgid "The buttons will wrap around depending on the width of the toolbar."
+msgstr "Τα κουμπιά θα τυλίγονται ανάλογα με το πλάτος της γραμμής εργαλείων."
+
+#: tadv_admin.php:177
+msgid "For best results enable the menu and add only essential buttons."
+msgstr "Για καλύτερα αποτελέσματα, ενεργοποιήστε το μενού και προσθέστε μόνο τα απαραίτητα κουμπιά."
+
+#: tadv_admin.php:293 tadv_admin.php:461
+msgid "Drop buttons in the toolbars, or drag the buttons to rearrange them."
+msgstr "Ρίξτε κουμπιά στις γραμμές εργαλείων ή σύρετε τα κουμπιά για να τα αναδιατάξετε."
+
+#: tadv_admin.php:541
+msgid "Replace the size setting available for fonts with: %s."
+msgstr "Αντικατάσταση της ρύθμισης μεγέθους για τις γραμματοσειρές με: %s."
+
+#: tadv_admin.php:638
+msgid "A stylesheet file named editor-style.css was not added by your theme."
+msgstr "Δεν έχει προστεθεί αρχείο φύλλου στυλ με όνομα editor-style.css από το θέμα σας."
+
+#: tinymce-advanced.php:1171
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: tadv_admin.php:718
+msgid "The Classic Editor (Add New and Edit posts and pages)"
+msgstr "Ο Κλασικός Επεξεργαστής (Προσθήκη νέας και Επεξεργασία δημοσιεύσεων και σελίδων)"
+
+#: tadv_admin.php:715
+msgid "Enable the editor enhancements for:"
+msgstr "Ενεργοποιήστε τις βελτιώσεις κειμενογράφου για:"
+
+#: tadv_admin.php:703
+msgid "Settings import and export"
+msgstr "Εισαγωγή και εξαγωγή ρυθμίσεων"
+
+#: tadv_admin.php:628
+msgid "Create CSS classes menu"
+msgstr "Δημιουργία μενού CSS κλάσεων"
+
+#: tadv_admin.php:540
+msgid "Font sizes"
+msgstr "Μεγέθη γραμματοσειράς"
+
+#: tadv_admin.php:535
+msgid "Open the TinyMCE link dialog when using the link button on the toolbar or the link menu item."
+msgstr "Άνοιγμα του διαλόγου συνδέσμου του TinyMCE όταν γίνεται χρήση του κουμπιού συνδέσμου στην γραμμή εργαλείων ή του στοιχείου σύνδεσμος από το μενού."
+
+#: tadv_admin.php:534
+msgid "Alternative link dialog"
+msgstr "Εναλλακτικός διάλογος συνδέσμου"
+
+#: tadv_admin.php:529
+msgid "Replace the browser context (right-click) menu."
+msgstr "Αντικατάσταση του μενού περιβάλλοντος (δεξί κλικ) του περιηγητή."
+
+#: tadv_admin.php:522
+msgid "Enable more list options: upper or lower case letters for ordered lists, disk or square for unordered lists, etc."
+msgstr "Ενεργοποίηση περισσότερων επιλογών λιστών: κεφαλαία ή πεζά γράμματα για αριθμημένες λίστες, δίσκο ή τετράγωνο για μη αριθμημένες λίστες, κτλ."
+
+#: tadv_admin.php:510
+msgid "Options"
+msgstr "Επιλογές"
+
+#: tinymce-advanced.php:342
+msgid "Please upgrade your WordPress installation or download an <a href=\"%s\">older version of the plugin</a>."
+msgstr "Παρακαλώ αναβαθμίστε την εγκατάσταση WordPress σας ή κάντε λήψη μια <a href=\"%s\">παλιότερη έκδοση του πρόσθετου</a>."
+
+#: tinymce-advanced.php:334
+msgid "Advanced Editor Tools requires WordPress version %1$s or newer. It appears that you are running %2$s. This can make the editor unstable."
+msgstr "Το TinyMCE Advanced απαιτεί έκδοση WordPress %1$s ή νεότερη. Φαίνεται πως τρέχετε την %2$s. Αυτό μπορεί να κάνει τον κειμενογράφο ασταθή."
+
+#: tadv_admin.php:752
+msgid "The [Toolbar toggle] button shows or hides the second, third, and forth button rows. It will only work when it is in the first row and there are buttons in the second row."
+msgstr "Το κουμπί [Εναλλαγή γραμμής εργαλείων] εμφανίζει ή κρύβει την δεύτερη, τρίτη, και τέταρτη σειρά κουμπιών. Θα λειτουργήσει μόνο όταν είναι στην πρώτη σειρά και υπάρχουν κουμπιά στην δεύτερη σειρά."
+
+#: tadv_admin.php:746
+msgid "Restore Default Settings"
+msgstr "Επαναφορά προεπιλεγμένων ρυθμίσεων"
+
+#: tadv_admin.php:711
+msgid "Import Settings"
+msgstr "Εισαγωγή Ρυθμίσεων"
+
+#: tadv_admin.php:710
+msgid "Export Settings"
+msgstr "Εξαγωγή Ρυθμίσεων"
+
+#: tadv_admin.php:701
+msgid "Administration"
+msgstr "Διαχείριση"
+
+#: tadv_admin.php:608
+msgid "Line breaks in the Text tab in the Classic Editor would still affect the output, in particular do not use empty lines, line breaks inside HTML tags or multiple &lt;br&gt; tags."
+msgstr "Οι αλλαγές γραμμής στον κειμενογράφο θα συνεχίσουν να επηρεάζουν το αποτέλεσμα, συγκεκριμένα μην χρησιμοποιείτε κενές γραμμές, αλλαγές γραμμής μέσα σε ετικέτες HTML ή πολλαπλές ετικέτες &lt;br /&gt;."
+
+#: tadv_admin.php:607
+msgid "However it may behave unexpectedly in rare cases, so test it thoroughly before enabling it permanently."
+msgstr "Ωστόσο μπορεί να συμπεριφερθεί απροσδόκητα σε μερικές περιπτώσεις, γιαυτό δοκιμάστε το προσεκτικά πριν το ενεργοποιήσετε μόνιμα."
+
+#: tadv_admin.php:606
+msgid "This will make it possible to use more advanced coding in the Text tab without the back-end filtering affecting it much."
+msgstr "Αυτό θα καταστήσει δυνατή τη χρήση πιο προηγμένης κωδικοποίησης στον επεξεργαστή Κειμένου χωρίς να επηρεάζεται πολύ από το φιλτράρισμα του back-end."
+
+#: tadv_admin.php:630
+msgid "Load the CSS classes used in editor-style.css and replace the Formats menu."
+msgstr "Φόρτωση των κλάσεων CSS που χρησιμοποιούνται στο editor-style.css και αντικατάσταση του μενού Μορφές."
+
+#: tadv_admin.php:549
+msgid "Advanced Options"
+msgstr "Προχωρημένες Ρυθμίσεις"
+
+#: tadv_admin.php:528
+msgid "Context Menu"
+msgstr "Μενού Περιβάλλοντος"
+
+#: tadv_admin.php:520
+msgid "List Style Options"
+msgstr "Επιλογές Στυλ Λιστών"
+
+#: tadv_admin.php:464
+msgid "Unused Buttons"
+msgstr "Μη χρησιμοποιούμενα κουμπιά"
+
+#: tadv_admin.php:347
+msgid "Enable the editor menu."
+msgstr "Ενεργοποίηση μενού του κειμενογράφου."
+
+#: tadv_admin.php:136 tadv_admin.php:747
+msgid "Save Changes"
+msgstr "Αποθήκευση Αλλαγών"
+
+#: tadv_admin.php:124
+msgid "Settings saved."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν."
+
+#: tadv_admin.php:106
+msgid "ERROR: All toolbars are empty. Default settings loaded."
+msgstr "ΣΦΑΛΜΑ: Όλες οι γραμμές εργαλείων είναι άδειες. Φορτώθηκαν οι προεπιλεγμένες ρυθμίσεις."
+
+#: tadv_admin.php:76
+msgid "Importing of settings failed."
+msgstr "Η εισαγωγή των ρυθμίσεων απέτυχε."
+
+#: tadv_admin.php:57
+msgid "Verify"
+msgstr "Επικύρωση"
+
+#: tadv_admin.php:54
+msgid "Alternatively the settings can be imported from a JSON encoded string. Please paste the exported string in the text area below."
+msgstr "Εναλλακτικά οι ρυθμίσεις μπορούν να εισαχθούν από μια κωδικοποιημένη συμβολοσειρά JSON. Παρακαλώ επικολλήστε την εξαγόμενη συμβολοσειρά στο παρακάτω πεδίο κειμένου."
+
+#: tadv_admin.php:63
+msgid "Back to Editor Settings"
+msgstr "Επιστροφή στις Ρυθμίσεις Κειμενογράφου"
+
+#: tadv_admin.php:705
+msgid "The settings are exported as a JSON encoded file."
+msgstr "Οι ρυθμίσεις εξάγονται ως κωδικοποιημένη συμβολοσειρά JSON."
+
+#: tadv_admin.php:36
+msgid "Default settings restored."
+msgstr "Έγινε επαναφορά στις προεπιλεγμένες ρυθμίσεις."

@@ -1,0 +1,197 @@
+﻿
+
+a {
+    text-decoration: none;    
+    color: #fff;
+
+}
+
+
+a { text-decoration:none;}
+a:link { text-decoration:none;}
+a:hover { text-decoration:none;}
+a:visited { text-decoration:none;}
+a.more-games{color: #2cccea; }
+
+table tr{
+    font-size:15px;
+
+}
+
+
+table td{
+border: 0px solid white;
+}
+
+table tr:nth-child(even) {
+    background: rgba(239, 230, 211,1);
+    color: #000;
+    width: 100%;
+}
+
+table tr:nth-child(odd) {
+    background: rgba(239, 230, 211,0.8);
+    color: #000;
+    width: 100%;
+}
+
+table tr:nth-child(1) {
+    background-color: #E21895;
+    color: #fff;
+    width: 100%;
+}
+
+table p {
+    color: #fff;
+    width: 100%;
+}
+
+table {
+    overflow: auto;
+    display: flex;
+    border-color: #E21895;
+    
+    text-align: center;
+    width: 100%;
+   
+    box-shadow: 0 0 0 2px #E21895;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+table tr:nth-child(1) td:nth-child(1) {    border-top-left-radius: 10px;      }
+table tr:nth-child(1) td:last-child   {    border-top-right-radius: 10px;     }
+table tr:last-child td:nth-child(1)   {    border-bottom-left-radius: 10px;   }
+table tr:last-child td:last-child     {    border-bottom-right-radius: 10px;  }
+
+table td {
+    vertical-align: middle;
+    text-align: left;
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+p {font-size:16px; line-height:25px; color:#c1c1c1; }
+
+
+.faqcounter {
+
+  margin-left:5px;
+  margin-top:5px;
+
+  width: 16px;
+  height: 16px;
+  background-color: #F2F0FF;
+  text-align: center;
+  line-height:16px;
+  color: #6077FF;
+  font-size:11px;
+} 
+
+h1 {font-size:22px; font-weight: 600; line-height:22px;  margin-bottom:20px; }
+h2 {font-size:20px; font-weight: 600; line-height:20px;  margin-top:20px; margin-bottom:20px; }
+h3 {font-size:18px; font-weight: 600; line-height:18px;  margin-top:20px; margin-bottom:20px; }
+h4 {font-size:16px; font-weight: 600; line-height:16px;  margin-top:20px; margin-bottom:20px; }
+
+h1>strong { font-weight: 600; font-size:22px; line-height:22px; color:#fff; margin-bottom:20px; }
+h2>strong { font-weight: 600; font-size:20px; line-height:20px; color:#fff; margin-top:20px; margin-bottom:20px; }
+h3>strong { font-weight: 600; font-size:18px; line-height:18px; color:#fff; margin-top:20px; margin-bottom:20px; }
+h4>strong { font-weight: 600; font-size:16px; line-height:16px; color:#fff; margin-top:20px; margin-bottom:20px; }
+
+b, strong, em {
+    font-weight: bolder;
+    color:#000;
+}
+
+table, b, strong {
+    
+    font-weight: bolder;
+    color:#fff;
+}
+
+ul {
+    color:#fff;
+    font-size: 16px;
+    line-height:22px;
+    margin-bottom : 20px; 
+    margin-top : 20px; 
+    padding-left: 20px;
+    list-style: disc;
+
+}
+
+.ul_reverse {
+    color:#fff;
+    font-size: 16px;
+    line-height:22px;
+    margin-bottom : 0px; 
+    margin-top : 0px; 
+    padding-left: 0px;
+    list-style: none;
+
+}
+
+.footer--col-item {
+    list-style: none;
+}
+
+
+.sidemenu__group{
+    color:#fff;
+    font-size: 16px;
+    line-height:22px;
+    margin-bottom : 0px; 
+    margin-top : 0px; 
+    padding-left: 0px;
+    list-style: none;
+    line-height:30px;
+}
+
+.sidemenu__wrap{
+padding-block-start: 0px;
+padding-block-end: 0px;
+}
+
+
+.navigation--list {
+    padding-left: 0px;
+    list-style: none;
+    line-height:14px;
+}
+
+
+
+.uppercaseagora {
+    color : #f3c200; 
+    font-size:10px; 
+}
+
+
+
+.faqanswear {       display: none;  color:#b3acd2; font-size: 19px; line-height: 140%;  padding-left:20px;}
+.faqanswear._open { display: block; color:#b3acd2; font-size: 19px; line-height: 140%;  padding-left:20px;}     
+
+
+.quest {        cursor:pointer;  }
+.quest._open {  cursor:pointer; }     
+
+.chevron {         transition:all .8s ease-in-out;  transform: rotate(0deg);    }
+.chevron._open {   transition:all .8s ease-in-out;  transform: rotate(180deg);  }    
+
+
+
+
+.button._small[_ngcontent-qvm-c139]
+{
+  padding: 15px 40px;
+  height: 50px;
+  min-width: 147px;
+  font-size: 20px;
+}
+
+
+.swiper-container-free-mode > .swiper-wrapper
+{
+
+  max-height: 650px;
+}

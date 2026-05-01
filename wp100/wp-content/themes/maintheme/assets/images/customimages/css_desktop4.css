@@ -1,0 +1,624 @@
+﻿
+
+swiper {
+  display: block;
+}
+
+
+[_ngcontent-qvm-c302]:root {
+  --white-1000: 255, 255, 255;
+  --black-800: 31, 33, 38;
+  --black-700: 23, 28, 39;
+  --red-1000: 253, 53, 92;
+  --red-900: 244, 67, 54;
+  --green-900: 8, 201, 143;
+  --green-1000: 0, 200, 83;
+  --yellow-1000: 255, 214, 0;
+  --yellow-900: 255, 229, 145;
+  --yellow-800: 255, 160, 0;
+  --yellow-700: 251, 192, 45;
+  --purple-1000: 131, 66, 237;
+  --purple-900: 120, 87, 217;
+  --purple-650: 104, 41, 206;
+  --purple-600: 45, 25, 110;
+  --purple-550: 44, 19, 98;
+  --purple-500: 24, 8, 76;
+  --purple-450: 34, 10, 65;
+  --purple-400: 38, 18, 100;
+  --purple-370: 56, 16, 105;
+  --purple-350: 61, 7, 131;
+  --purple-300: 113, 56, 209;
+  --purple-200: 82, 78, 114;
+  --purple-100: 140, 135, 179;
+  --blue-800: 8, 20, 76;
+  --blue-400: 53, 134, 255;
+  --blue-300: 25, 53, 110;
+  --blue-200: 42, 120, 238;
+  --blue-100: 85, 201, 255;
+  --neutral-dark: 0, 0, 0;
+  --neutral-1000: 20, 20, 20;
+  --neutral-900: 31, 31, 31;
+  --neutral-800: 51, 51, 51;
+  --neutral-700: 84, 84, 84;
+  --neutral-600: 117, 117, 117;
+  --neutral-500: 175, 175, 175;
+  --neutral-400: 203, 203, 203;
+  --neutral-300: 226, 226, 226;
+  --neutral-200: 238, 238, 238;
+  --neutral-100: 246, 246, 246;
+  --primary-color: 255, 216, 107;
+  --secondary-color-blue: 100, 193, 255;
+  --primary-text-color: rgb(var(--white-1000));
+  --secondary-text-color: 91, 102, 124;
+  --tertiary-text-color: 179, 172, 210;
+  --link-color-primary: 255, 227, 142;
+  --link-color-secondary: 166, 113, 253;
+  --blue-navigation: 41, 121, 255;
+  --button-text-dark: 107, 64, 0;
+  --background-casino: 22, 8, 64;
+  --background-sport: 0, 17, 51;
+  --background-secondary: 245, 246, 251;
+  --background-contrast: 9, 10, 11;
+  --background-footer: 4, 3, 9;
+  --primary-box-shadow-color: 223, 152, 70;
+  --secondary-box-shadow-color: 82, 27, 171;
+  --warn-box-shadow-color: 34, 80, 199;
+  --banner-primary-color: 255, 217, 109;
+  --button-border-color: 104, 41, 206;
+  --wall-of-wins-shadow-color: 162, 107, 253;
+  --primary-color-gradient: linear-gradient(rgb(var(--primary-color)), #ffbd59);
+  --secondary-color-gradient: linear-gradient(rgb(var(--purple-1000)), rgb(var(--purple-650)));
+  --warn-color-gradient: linear-gradient(rgb(var(--secondary-color-blue)), #2e72d7)
+}
+
+.game-card[_ngcontent-qvm-c302] {
+  height: 100%;
+  min-width: 100%;
+  position: relative;
+  overflow: hidden;
+  max-height: 300px;
+  display: block;
+  border-radius: 16px;
+  z-index: 2;
+  border: 2px solid rgba(165, 119, 255, .5)
+}
+
+@media screen and (min-width:1280px) {
+  .game-card[_ngcontent-qvm-c302]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(/mp100/wp-content/themes/maintheme/assets/images/customimages/game-card-hover.webp) no-repeat 50% 100%;
+    opacity: 0;
+    transform: scale(1.2) translateY(20px);
+    transition: .6s transform ease, var(--transitionTime) opacity ease
+  }
+}
+
+@media screen and (min-width:1280px) and (min-width:1920px) {
+  .game-card[_ngcontent-qvm-c302]:after {
+    background-size: cover
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .game-card[_ngcontent-qvm-c302]:hover:after {
+    transform: scale(1.4) translateY(0);
+    opacity: 1
+  }
+}
+
+.game-card--default-state[_ngcontent-qvm-c302] {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  align-content: stretch
+}
+
+.game-card--hover-state[_ngcontent-qvm-c302] {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 16px 16px 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .2s linear;
+  z-index: 1
+}
+
+@media screen and (min-width:1440px) {
+  .game-card--hover-state[_ngcontent-qvm-c302] {
+    padding: 16px 16px 40px
+  }
+}
+
+@media screen and (min-width:1680px) {
+  .game-card--hover-state[_ngcontent-qvm-c302] {
+    justify-content: center;
+    padding: 25px 16px 16px
+  }
+}
+
+.game-card--badge[_ngcontent-qvm-c302] {
+  position: absolute;
+  bottom: 8px;
+  right: 8px
+}
+
+@media screen and (min-width:1280px) {
+  .game-card--badge[_ngcontent-qvm-c302] {
+    bottom: 16px;
+    right: 16px
+  }
+}
+
+.game-card--favorite[_ngcontent-qvm-c302] {
+  position: absolute;
+  top: 8px;
+  right: 8px
+}
+
+@media screen and (min-width:1280px) {
+  .game-card--favorite[_ngcontent-qvm-c302] {
+    top: 18px;
+    right: 12px;
+    cursor: pointer
+  }
+}
+
+.game-card--picture[_ngcontent-qvm-c302] {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: var(--transitionTime) transform ease
+}
+
+.game-card--img[_ngcontent-qvm-c302] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+.game-card--mode[_ngcontent-qvm-c302] {
+  margin-top: 12px;
+  text-decoration: underline
+}
+
+@media screen and (min-width:1024px) {
+  .game-card--mode[_ngcontent-qvm-c302] {
+    cursor: pointer
+  }
+
+  .game-card--mode[_ngcontent-qvm-c302]:hover {
+    text-decoration: none
+  }
+}
+
+.game-card--bottom[_ngcontent-qvm-c302] {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  padding: 0 12px;
+  text-align: center
+}
+
+.game-card--category[_ngcontent-qvm-c302] {
+  opacity: .5
+}
+
+@media screen and (min-width:1280px) {
+  .game-card[_ngcontent-qvm-c302]:hover .game-card--hover-state[_ngcontent-qvm-c302] {
+    opacity: 1
+  }
+
+  .game-card[_ngcontent-qvm-c302]:hover .game-card--picture[_ngcontent-qvm-c302] {
+    transform: scale(1.2)
+  }
+}
+
+._no-border[_nghost-qvm-c302] .game-card[_ngcontent-qvm-c302]:before,
+._no-border [_nghost-qvm-c302] .game-card[_ngcontent-qvm-c302]:before {
+  border-color: transparent
+}
+
+.game-card._small[_ngcontent-qvm-c302] .game-card--hover-state[_ngcontent-qvm-c302] {
+  padding-bottom: 25px;
+  padding-top: 73px
+}
+
+.game-card._small[_ngcontent-qvm-c302] .game-card--favorite[_ngcontent-qvm-c302] {
+  display: none
+}
+
+.game-card._small[_ngcontent-qvm-c302] .game-card--bottom[_ngcontent-qvm-c302] {
+  top: 18px
+}
+
+.game-card._small[_ngcontent-qvm-c302] .game-card--name[_ngcontent-qvm-c302] {
+  font-size: 16px
+}
+
+.game-card._small[_ngcontent-qvm-c302] .game-card--category[_ngcontent-qvm-c302],
+.game-card._small[_ngcontent-qvm-c302] .game-card--mode[_ngcontent-qvm-c302] {
+  font-size: 14px
+}
+
+
+.favorite[_ngcontent-qvm-c301] {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center
+}
+
+
+[_nghost-qvm-c141] {
+  display: inline-block
+}
+
+.badge[_ngcontent-qvm-c141] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  padding: 4px 6px;
+  width: -webkit-max-content;
+  width: max-content;
+  border: 1px solid transparent;
+  border-radius: 6px
+}
+
+@media screen and (min-width:1280px) {
+  .badge[_ngcontent-qvm-c141] {
+    padding: 5px 7px
+  }
+}
+
+.badge._new[_ngcontent-qvm-c141] {
+  padding: 3px 9px;
+  color: rgb(var(--button-text-dark));
+  background: url(/mp100/wp-content/themes/maintheme/assets/images/customimages/noise.png), rgb(var(--link-color-primary));
+  background-blend-mode: overlay, normal;
+  border-color: #e2ab5a
+}
+
+@media screen and (min-width:1280px) {
+  .badge._new[_ngcontent-qvm-c141] {
+    padding: 5px 11px
+  }
+}
+
+.badge._live[_ngcontent-qvm-c141] {
+  padding: 3px 7px;
+  color: rgb(var(--white-1000));
+  background: url(/mp100/wp-content/themes/maintheme/assets/images/customimages/noise.png), #f45656;
+  background-blend-mode: overlay, normal;
+  border-color: #c34444
+}
+
+@media screen and (min-width:1280px) {
+  .badge._live[_ngcontent-qvm-c141] {
+    padding: 5px 11px
+  }
+}
+
+.badge._sport[_ngcontent-qvm-c141] {
+  background: rgba(var(--secondary-color-blue), .2);
+  border-color: rgba(var(--secondary-color-blue), .5);
+  box-shadow: inset -2px 2px 6px rgba(19, 69, 102, .5)
+}
+
+.badge._casino[_ngcontent-qvm-c141] {
+  background: rgba(var(--purple-1000), .3);
+  border: 1px solid #9859ff;
+  box-shadow: inset -2px 2px 8px rgba(61, 31, 110, .5)
+}
+
+.badge._finished[_ngcontent-qvm-c141] {
+  color: rgb(var(--tertiary-text-color));
+  background: rgba(var(--purple-900), .2)
+}
+
+@media screen and (min-width:1280px) {
+  .badge._finished[_ngcontent-qvm-c141] {
+    padding: 5px 9px
+  }
+}
+
+.badge._active[_ngcontent-qvm-c141] {
+  padding: 3px 6px;
+  background: rgba(48, 255, 156, .5);
+  box-shadow: inset 0 0 4px #69ffb7, inset 0 0 16px #69ffb7
+}
+
+@media screen and (min-width:1280px) {
+  .badge._active[_ngcontent-qvm-c141] {
+    padding: 5px 9px
+  }
+}
+
+.badge._upcoming[_ngcontent-qvm-c141] {
+  color: rgb(var(--neutral-dark));
+  background-color: rgba(var(--neutral-200));
+  border-radius: 4px
+}
+
+@media screen and (min-width:1280px) {
+  .badge._upcoming[_ngcontent-qvm-c141] {
+    padding: 5px 9px
+  }
+}
+
+.badge._exclusive[_ngcontent-qvm-c141] {
+  background: rgb(var(--purple-1000));
+  box-shadow: inset 0 0 4px #f9d175, inset 0 0 16px #a56fff;
+  color: rgb(var(--primary-color));
+  border-width: 0
+}
+
+@media screen and (max-width:539.98px) {
+  .badge._exclusive[_ngcontent-qvm-c141]:lang(fi) {
+    font-size: 8px
+  }
+}
+
+.badge._promo[_ngcontent-qvm-c141] {
+  border-radius: 2px;
+  background: #ff3227;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: .2px;
+  padding: 4px;
+  color: rgb(var(--white-1000))
+}
+
+
+.card[_ngcontent-qvm-c322] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, rgb(var(--background-casino)), rgb(var(--background-casino))), rgb(var(--background-casino));
+  background-image: url(/mp100/wp-content/themes/maintheme/assets/images/customimages/game-card-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-blend-mode: screen, normal, normal;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none
+}
+
+.card[_ngcontent-qvm-c322]:lang(el) {
+  background-size: 100% 100%
+}
+
+.card--wrapper[_ngcontent-qvm-c322] {
+  padding: 24px 16px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 14px
+}
+
+@media screen and (min-width:1024px) {
+  .card--wrapper[_ngcontent-qvm-c322] {
+    padding: 32px 24px;
+    border-radius: 16px
+  }
+}
+
+.card--wrapper[_ngcontent-qvm-c322]:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/mp100/wp-content/themes/maintheme/assets/images/customimages/last-card-hover.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: scale(1.2) translateY(20px);
+  transition: .6s transform ease, var(--transitionTime) opacity ease;
+  opacity: 0
+}
+
+@media screen and (min-width:1280px) {
+  .card--wrapper[_ngcontent-qvm-c322]:hover:after {
+    transform: scale(1.4) translateY(0);
+    opacity: 1
+  }
+}
+
+.card--wrapper-center[_ngcontent-qvm-c322] {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.card--wrapper-center[_ngcontent-qvm-c322]:lang(el) {
+  text-align: center
+}
+
+@media screen and (max-width:767.98px) {
+  .card--wrapper-center[_ngcontent-qvm-c322]:lang(el) .text-16[_ngcontent-qvm-c322] {
+    font-size: 14px
+  }
+}
+
+.card--wrapper-text[_ngcontent-qvm-c322] {
+  margin: 14px 0 20px;
+  padding: 0 15px;
+  letter-spacing: .06em
+}
+
+@media screen and (max-width:767.98px) {
+  .card--wrapper-text[_ngcontent-qvm-c322]:lang(el) {
+    font-size: 12px
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .card--wrapper-text[_ngcontent-qvm-c322] {
+    margin: 14px 0 37px;
+    padding: 0 25px
+  }
+}
+
+.card--wrapper-link[_ngcontent-qvm-c322] {
+  margin-top: 16px;
+  display: block;
+  text-align: center;
+  letter-spacing: .06em;
+  padding: 0 20px
+}
+
+@media screen and (max-width:767.98px) {
+  .card--wrapper-link[_ngcontent-qvm-c322]:lang(el) {
+    font-size: 12px
+  }
+}
+
+@media screen and (max-width:767.98px) {
+  .card--show-more[_ngcontent-qvm-c322]:lang(hu) {
+    font-size: 16px
+  }
+}
+
+.card--bottom[_ngcontent-qvm-c322] {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  display: flex
+}
+
+.card--bottom[_ngcontent-qvm-c322]>*[_ngcontent-qvm-c322] {
+  margin-right: -9px
+}
+
+.card--bottom[_ngcontent-qvm-c322] [_ngcontent-qvm-c322]:first-child {
+  opacity: .2
+}
+
+.card--bottom[_ngcontent-qvm-c322] [_ngcontent-qvm-c322]:nth-child(2) {
+  opacity: .5
+}
+
+
+.event-card[_ngcontent-qvm-c342] {
+  height: 100%;
+  width: 328px;
+  padding: 19px 16px 16px;
+  border-radius: 16px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(6, 35, 92, 0) .2%, rgba(40, 75, 167, .64)), #071745
+}
+
+@supports ((-webkit-backdrop-filter:none) or (backdrop-filter:none)) {
+  .event-card[_ngcontent-qvm-c342] {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background: linear-gradient(180deg, rgba(6, 35, 92, 0), rgba(40, 75, 167, .64) 85%), rgba(7, 23, 69, .96)
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .event-card[_ngcontent-qvm-c342] {
+    width: 394px
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .event-card[_ngcontent-qvm-c342] {
+    width: unset;
+    padding: 20px
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .event-card[_ngcontent-qvm-c342] {
+    width: 100%
+  }
+}
+
+.event-card--header[_ngcontent-qvm-c342] {
+  margin-bottom: 19px
+}
+
+@media screen and (min-width:1024px) {
+  .event-card--header[_ngcontent-qvm-c342] {
+    margin-bottom: 27px
+  }
+}
+
+.event-card--container[_ngcontent-qvm-c342] {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px 8px;
+  align-items: center
+}
+
+@media screen and (min-width:1024px) {
+  .event-card--container[_ngcontent-qvm-c342] {
+    grid-gap: 24px 8px
+  }
+}
+
+.event-card--pic[_ngcontent-qvm-c342] {
+  height: 48px;
+  margin-bottom: 8px
+}
+
+.event-card--team[_ngcontent-qvm-c342] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-break: break-word;
+  min-height: 84px
+}
+
+.event-card--team-img[_ngcontent-qvm-c342] {
+  margin: 0 auto;
+  max-height: 100%
+}
+
+.event-card--team-name[_ngcontent-qvm-c342] {
+  color: rgb(var(--blue-1000))
+}
+
+.event-card--date[_ngcontent-qvm-c342] {
+  display: grid;
+  grid-gap: 4px
+}
+
+.event-card--bet-val[_ngcontent-qvm-c342] {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background: #081948;
+  padding: 12px 14px;
+  cursor: pointer;
+  border-radius: 14px
+}
+
+@media screen and (min-width:1024px) {
+  .event-card--bet-val[_ngcontent-qvm-c342] {
+    padding: 14px 16px
+  }
+}

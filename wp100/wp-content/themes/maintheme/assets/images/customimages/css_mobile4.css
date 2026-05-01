@@ -1,0 +1,696 @@
+﻿
+  .tab-group[_ngcontent-baf-c340] {
+    text-align:center
+  }
+  .tab-group__header[_ngcontent-baf-c340] {
+    display:inline-grid;
+    grid-template-columns:auto auto;
+    grid-column-gap:8px;
+    justify-content:center;
+    align-self:center;
+    font-size:14px;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    line-height:1;
+    font-weight:800
+  }
+  @media screen and (min-width:1280px) {
+    .tab-group__header[_ngcontent-baf-c340] {
+      font-size:20px
+    }
+  }
+  .tab-group__tab.default[_ngcontent-baf-c340] {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:12px 0;
+    color:rgb(var(--tertiary-text-color));
+    background:rgba(var(--purple-900),.2);
+    border-radius:8px
+  }
+  @media screen and (min-width:1024px) {
+    .tab-group__tab.default[_ngcontent-baf-c340] {
+      cursor:pointer
+    }
+  }
+  .tab-group__tab.default.default.active[_ngcontent-baf-c340] {
+    color:rgb(var(--white-1000));
+    background:url(/mp100/wp-content/themes/maintheme/assets/images/customimages/noise.png),rgb(var(--purple-1000));
+    background-blend-mode:overlay,normal;
+    box-shadow:0 2px 8px rgba(var(--black-700),.05);
+    border-radius:8px;
+    border-bottom:none
+  }
+  .tab-group__tab.default[_ngcontent-baf-c340]   div[_ngcontent-baf-c340] {
+    padding:0 33px
+  }
+  .tab-group__body[_ngcontent-baf-c340] {
+    width:100%
+  }
+  .entrance-tabs[_ngcontent-baf-c340]   .tab-group__header[_ngcontent-baf-c340] {
+    border-radius:15px;
+    padding:4px;
+    grid-column-gap:4px;
+    background:rgba(var(--white-1000),.3)
+  }
+  @supports ((-webkit-backdrop-filter:none) or (backdrop-filter:none)) {
+    .entrance-tabs[_ngcontent-baf-c340]   .tab-group__header[_ngcontent-baf-c340] {
+      background:rgba(var(--white-1000),.1);
+      -webkit-backdrop-filter:blur(8px);
+      backdrop-filter:blur(8px)
+    }
+  }
+  .entrance-tabs[_ngcontent-baf-c340]   .tab-group__tab.default[_ngcontent-baf-c340] {
+    background-color:initial;
+    color:rgb(var(--white-1000));
+    padding:8px 35px;
+    min-width:146px;
+    border-radius:12px;
+    font-size:16px;
+    letter-spacing:.04em
+  }
+  .entrance-tabs[_ngcontent-baf-c340]   .tab-group__tab.default.active[_ngcontent-baf-c340] {
+    background-color:rgb(var(--white-1000));
+    color:rgb(var(--background-casino));
+    border-radius:12px
+  }
+  .entrance-tabs[_ngcontent-baf-c340]   .tab-group__tab.default[_ngcontent-baf-c340]   div[_ngcontent-baf-c340] {
+    padding:0
+  }
+  @media screen and (min-width:1280px) {
+    .entrance-tabs[_ngcontent-baf-c340]   .tab-group__tab.default[_ngcontent-baf-c340]:not(.active):hover {
+      background:rgba(var(--white-1000),.1)
+    }
+  }
+  .entrance-tabs._narrow[_ngcontent-baf-c340]   .tab-group__tab[_ngcontent-baf-c340] {
+    padding-left:24px;
+    padding-right:24px;
+    min-width:0
+  }
+  .dashboard--container[_ngcontent-baf-c340] {
+    position:relative;
+    padding:12px 16px 24px
+  }
+  @media screen and (min-width:768px) {
+    .dashboard--container[_ngcontent-baf-c340] {
+      padding:12px 0 68px
+    }
+  }
+  @media screen and (min-width:1280px) {
+    .dashboard--container[_ngcontent-baf-c340] {
+      padding:32px 0 133px
+    }
+  }
+  .dashboard--container._casino[_ngcontent-baf-c340]:after {
+    background:linear-gradient(180deg,rgba(58,89,167,0),rgba(var(--background-casino),.6) 30%,rgb(var(--background-casino)))
+  }
+  @media screen and (min-width:1280px) {
+    .dashboard--container._casino[_ngcontent-baf-c340]:after {
+      background:linear-gradient(180deg,rgba(58,89,167,0),rgba(var(--background-casino),.8) 43%,rgb(var(--background-casino)))
+    }
+  }
+  .dashboard--wrapper[_ngcontent-baf-c340] {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center
+  }
+  .dashboard--tabs[_ngcontent-baf-c340] {
+    margin-bottom:12px;
+    z-index:3;
+    border-radius:15px;
+    padding:4px;
+    display:grid;
+    grid-auto-flow:column;
+    grid-column-gap:4px;
+    background:rgba(var(--white-1000),.3)
+  }
+  @supports ((-webkit-backdrop-filter:none) or (backdrop-filter:none)) {
+    .dashboard--tabs[_ngcontent-baf-c340] {
+      background:rgba(var(--white-1000),.1);
+      -webkit-backdrop-filter:blur(8px);
+      backdrop-filter:blur(8px)
+    }
+  }
+  .dashboard--tab[_ngcontent-baf-c340] {
+    padding:8px 35px;
+    min-width:120px;
+    background-color:initial;
+    border-radius:12px
+  }
+  @media screen and (min-width:1280px) {
+    .dashboard--tab[_ngcontent-baf-c340]:not(._active):hover {
+      background:rgba(var(--white-1000),.1)
+    }
+  }
+  .dashboard--tab._active[_ngcontent-baf-c340] {
+    background-color:rgb(var(--white-1000))
+  }
+  .dashboard--tab._active[_ngcontent-baf-c340]   .bank-id-banner--tab-text[_ngcontent-baf-c340],
+  .dashboard--tab._active[_ngcontent-baf-c340]   .dashboard--tab-text[_ngcontent-baf-c340] {
+    color:rgb(var(--background-casino))
+  }
+  @media screen and (min-width:1280px) {
+    .dashboard--tab[_ngcontent-baf-c340] {
+      padding:8px 52px;
+      min-width:146px
+    }
+  }
+  .dashboard--tab-text[_ngcontent-baf-c340] {
+    display:block;
+    width:-webkit-fit-content;
+    width:-moz-fit-content;
+    width:fit-content
+  }
+  .dashboard--banner-wrapper[_ngcontent-baf-c340] {
+    position:relative;
+    margin-bottom:32px
+  }
+  @media screen and (min-width:1440px) {
+    .dashboard--banner-wrapper[_ngcontent-baf-c340] {
+      margin-bottom:40px
+    }
+  }
+  .dashboard--banner-text[_ngcontent-baf-c340],
+  .dashboard--banner-title[_ngcontent-baf-c340] {
+    margin-bottom:8px
+  }
+  @media screen and (min-width:1440px) {
+    .dashboard--banner-text[_ngcontent-baf-c340],
+    .dashboard--banner-title[_ngcontent-baf-c340] {
+      margin-bottom:12px
+    }
+  }
+  .dashboard--quick-registration[_ngcontent-baf-c340] {
+    display:block;
+    max-width:328px;
+    margin:0 auto;
+    position:relative;
+    z-index:3
+  }
+  @media screen and (max-width:539.98px) {
+    .dashboard--quick-registration[_ngcontent-baf-c340] {
+      min-height:319px
+    }
+  }
+  @media screen and (min-width:1280px) {
+    .dashboard--quick-registration[_ngcontent-baf-c340] {
+      min-height:358px;
+      max-width:400px
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .quick-registration[_ngcontent-baf-c339] {
+    --input-height:44px;
+    height:100%;
+    padding:14px 20px 23px;
+    background:radial-gradient(131.97% 100% at 50% 0,#4671c6 0,rgba(22,54,103,0) 61.19%),linear-gradient(180deg,#093282 14.16%,rgba(9,26,68,0) 76.59%),rgb(var(--background-sport));
+    box-shadow:0 8px 100px rgba(58,136,255,.4),inset -15px 0 10px -10px rgba(105,165,254,.3),inset 15px 0 10px -10px rgba(105,165,254,.3),inset 0 0 8px rgba(105,165,254,.3);
+    border-radius:20px
+  }
+  @media screen and (min-width:1280px) {
+    .quick-registration[_ngcontent-baf-c339] {
+      --input-height:50px;
+      padding:16px 24px 24px
+    }
+  }
+  .quick-registration._promo-list[_ngcontent-baf-c339] {
+    padding:20px
+  }
+  .quick-registration._casino[_ngcontent-baf-c339],
+  .quick-registration._logged-casino[_ngcontent-baf-c339] {
+    background:radial-gradient(131.97% 100% at 50% 0,#8f36e3 0,rgba(54,15,128,0) 61.19%),linear-gradient(180deg,#27108e 14.16%,rgba(25,9,68,0) 76.59%),#160840;
+    box-shadow:0 8px 100px rgba(191,139,247,.4),inset 0 0 8px rgba(228,193,255,.3),inset 15px 0 10px -10px rgba(188,105,254,.3),inset -15px 0 10px -10px rgba(188,105,254,.3)
+  }
+  .quick-registration._logged[_ngcontent-baf-c339] {
+    padding:20px 20px 24px
+  }
+  @media screen and (min-width:1280px) {
+    .quick-registration._logged[_ngcontent-baf-c339] {
+      padding:24px 24px 28px
+    }
+  }
+  @media screen and (max-width:767.98px) {
+    .quick-registration._logged[_ngcontent-baf-c339]:lang(fi) {
+      margin-bottom:32px
+    }
+  }
+  .quick-registration--title[_ngcontent-baf-c339] {
+    text-shadow:0 4px 32px rgba(var(--background-casino),.5),0 4px 16px rgba(var(--background-casino),.5)
+  }
+  .quick-registration--arrow[_ngcontent-baf-c339] {
+    color:rgb(var(--background-sport))
+  }
+  .quick-registration--label[_ngcontent-baf-c339] {
+    display:block
+  }
+  .quick-registration--amount[_ngcontent-baf-c339] {
+    display:flex;
+    align-items:center;
+    height:var(--input-height);
+    border-radius:12px;
+    padding:7px 12px;
+    background:rgb(var(--white-1000));
+    border:1px solid transparent
+  }
+  @media screen and (min-width:1280px) {
+    .quick-registration--amount[_ngcontent-baf-c339]:hover {
+      border:1px solid rgb(var(--purple-1000));
+      box-shadow:0 0 8px rgb(var(--purple-1000))
+    }
+  }
+  .quick-registration--input-amount[_ngcontent-baf-c339] {
+    color:rgb(var(--background-casino))
+  }
+  .quick-registration--country[_ngcontent-baf-c339] {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-auto-flow:column;
+    align-items:stretch;
+    grid-column-gap:8px
+  }
+  .quick-registration--button[_ngcontent-baf-c339] {
+    width:100%;
+    display:block
+  }
+  .quick-registration--button[_ngcontent-baf-c339]     .button {
+    width:100%;
+    padding-top:10px;
+    padding-bottom:9px;
+    height:auto
+  }
+  .quick-registration--form[_ngcontent-baf-c339] {
+    display:grid;
+    grid-template-columns:1fr;
+    row-gap:8px
+  }
+  @media screen and (min-width:1280px) {
+    .quick-registration--form[_ngcontent-baf-c339] {
+      row-gap:12px
+    }
+  }
+  .quick-registration--bonus-list[_ngcontent-baf-c339] {
+    display:grid;
+    grid-gap:12px
+  }
+  .quick-registration--bonus-item[_ngcontent-baf-c339] {
+    position:relative;
+    padding:7px;
+    background:rgb(var(--white-1000));
+    border-radius:12px;
+    border:1px solid transparent;
+    transition:box-shadow var(--transitionTime) linear
+  }
+  .quick-registration--bonus-item[_ngcontent-baf-c339]   .option--icon-wrapper[_ngcontent-baf-c339] {
+    transform:scale(.31304);
+    border-radius:100%;
+    background:rgb(var(--background-casino));
+    position:absolute
+  }
+  .quick-registration--bonus-item._promo-list[_ngcontent-baf-c339] {
+    padding:9px 8px;
+    min-height:55px;
+    display:flex;
+    align-items:center
+  }
+  .quick-registration--bonus-item._promocode[_ngcontent-baf-c339] {
+    padding:0 8px;
+    background:rgba(var(--primary-color),.1);
+    border:1px solid rgb(var(--primary-color));
+    border-radius:12px
+  }
+  .quick-registration--bonus-item._error-visible[_ngcontent-baf-c339] {
+    border:1px solid rgb(var(--red-1000))
+  }
+  .option[_ngcontent-baf-c339] {
+    width:100%;
+    display:grid;
+    grid-auto-flow:column;
+    align-items:center;
+    justify-content:flex-start;
+    grid-column-gap:8px;
+    grid-template-columns:32px 1fr;
+    color:rgb(var(--background-casino))
+  }
+  @media screen and (min-width:1280px) {
+    .option[_ngcontent-baf-c339]:hover   .category-circle--img[_ngcontent-baf-c339]:first-child {
+      top:25%;
+      right:-35%;
+      transform:translateY(-50%) rotate(184deg)
+    }
+    .option[_ngcontent-baf-c339]:hover   .category-circle--img[_ngcontent-baf-c339]:last-child {
+      left:-30%;
+      bottom:-100%;
+      transform:rotate(-174deg)
+    }
+  }
+  .option--holder[_ngcontent-baf-c339] {
+    height:32px;
+    width:32px;
+    display:flex;
+    justify-content:center;
+    align-items:center
+  }
+  .option--icon[_ngcontent-baf-c339] {
+    display:block;
+    min-width:27px;
+    object-fit:contain;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(1.54);
+    z-index:3
+  }
+  .option--info[_ngcontent-baf-c339] {
+    display:grid;
+    text-align:left
+  }
+  .option--info[_ngcontent-baf-c339]   ._casino[_ngcontent-baf-c339] {
+    color:rgb(var(--purple-1000))
+  }
+  .option--info[_ngcontent-baf-c339]   ._sport[_ngcontent-baf-c339] {
+    color:rgb(var(--secondary-color-blue))
+  }
+  .option--info._not-bonus[_ngcontent-baf-c339] {
+    font-weight:800;
+    font-size:19px;
+    line-height:120%;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    color:rgb(var(--background-casino))
+  }
+  .option--info-text[_ngcontent-baf-c339] {
+    line-height:1.07
+  }
+  .option._promocode-selected[_ngcontent-baf-c339] {
+    display:block
+  }
+  .option._promocode-selected[_ngcontent-baf-c339]   .option--info[_ngcontent-baf-c339] {
+    display:grid;
+    grid-template-columns:1fr auto;
+    grid-gap:12px;
+    align-items:center
+  }
+  [_nghost-baf-c339]     .select-control__list-wrap {
+    top:calc(100% - 1px);
+    background:rgb(var(--white-1000));
+    color:rgb(var(--background-casino));
+    border:1px solid rgb(var(--purple-1000));
+    border-top:none;
+    padding-bottom:12px
+  }
+  [_nghost-baf-c339]     .select-control__list-item {
+    max-width:100%;
+    overflow-x:hidden;
+    color:rgb(var(--secondary-text-color))
+  }
+  [_nghost-baf-c339]     .select-control__list-item.active {
+    color:rgb(var(--purple-1000))
+  }
+  @media screen and (min-width:1280px) {
+    [_nghost-baf-c339]     .select-control__list-item:hover {
+      color:rgba(var(--background-casino))
+    }
+  }
+  [_nghost-baf-c339]     .stb-select._dark div.select-control__list-item {
+    color:rgba(var(--background-casino))
+  }
+  [_nghost-baf-c339]     ._country .show-list .select-control__list-wrap {
+    border:1px solid rgb(var(--primary-color));
+    padding-bottom:12px;
+    max-height:165px
+  }
+  [_nghost-baf-c339]     ._country .show-list .select-control__list-wrap:focus-within .select-control__search-icon--prefix,
+  [_nghost-baf-c339]     ._country .show-list .select-control__list-wrap:focus .select-control__search-icon--prefix {
+    display:none
+  }
+  @media screen and (min-width:768px) {
+    [_nghost-baf-c339]     ._country .show-list .select-control__list-wrap {
+      max-height:180px
+    }
+  }
+  [_nghost-baf-c339]     ._country .show-list .select-control__list-item {
+    margin-bottom:12px
+  }
+  [_nghost-baf-c339]     ._country .select-control__button {
+    display:flex;
+    align-items:center
+  }
+  [_nghost-baf-c339]     ._country .select-control__button-icon {
+    order:-1;
+    position:static;
+    margin-right:8px;
+    transform:none
+  }
+  [_nghost-baf-c339]     ._country .quick-registration--arrow {
+    position:absolute;
+    right:16px;
+    top:50%;
+    transform:translateY(-50%)
+  }
+  [_nghost-baf-c339]     .select-control__search-input {
+    background:rgb(var(--white-1000));
+    color:rgb(var(--background-casino));
+    border-bottom:1px solid rgba(var(--background-casino),.1);
+    padding-bottom:8px
+  }
+  [_nghost-baf-c339]     .select-control__search-input::placeholder {
+    opacity:.5;
+    color:rgb(var(--background-casino))
+  }
+  [_nghost-baf-c339]     .select-control__search-input:focus-within::placeholder,
+  [_nghost-baf-c339]     .select-control__search-input:focus::placeholder {
+    opacity:.7;
+    color:rgb(var(---background-casino))
+  }
+  @media screen and (min-width:1280px) {
+    [_nghost-baf-c339]     .select-control__search-input:hover::placeholder {
+      opacity:.7;
+      color:rgb(var(---background-casino))
+    }
+  }
+  [_nghost-baf-c339]     .select-control__search-icon--postfix {
+    color:rgb(var(--background-casino));
+    top:10px;
+    right:0;
+    width:18px
+  }
+  [_nghost-baf-c339]     .select-control__list {
+    overflow-x:hidden;
+    max-width:100%;
+    max-height:105px
+  }
+  @media screen and (min-width:768px) {
+    [_nghost-baf-c339]     .select-control__list {
+      max-height:110px
+    }
+  }
+  [_nghost-baf-c339]     .quick-registration--input-amount .input-number-control__input {
+    width:100%;
+    height:var(--input-height);
+    outline:none;
+    background:none;
+    border:none;
+    color:rgb(var(--background-casino));
+    font-weight:600;
+    font-size:28px;
+    padding:0;
+    text-align:left;
+    font-family:var(--font-family-primary)
+  }
+  [_nghost-baf-c339]     .quick-registration--amount .select-control__button,
+  [_nghost-baf-c339]     .quick-registration--country .select-control__button {
+    background:rgb(var(--white-1000));
+    color:rgb(var(--background-casino));
+    border:1px solid transparent;
+    text-transform:uppercase;
+    height:44px;
+    padding:10px 8px;
+    border-radius:12px
+  }
+  @media screen and (min-width:1280px) {
+    [_nghost-baf-c339]     .quick-registration--amount .select-control__button,
+    [_nghost-baf-c339]     .quick-registration--country .select-control__button {
+      padding:13px 8px;
+      height:50px
+    }
+  }
+  [_nghost-baf-c339]     .quick-registration--amount .select-control__button-icon,
+  [_nghost-baf-c339]     .quick-registration--country .select-control__button-icon {
+    right:8px
+  }
+  @media screen and (min-width:1280px) {
+    [_nghost-baf-c339]     .quick-registration--amount .select-control:hover:not(.show-list) .select-control__button,
+    [_nghost-baf-c339]     .quick-registration--country .select-control:hover:not(.show-list) .select-control__button {
+      background:rgb(var(--white-1000));
+      color:rgb(var(--background-casino));
+      border:1px solid rgb(var(--purple-1000));
+      box-shadow:0 0 8px rgb(var(--purple-1000))
+    }
+  }
+  [_nghost-baf-c339]     .quick-registration--amount .country-flag,
+  [_nghost-baf-c339]     .quick-registration--country .country-flag {
+    width:24px;
+    height:24px;
+    border-radius:100%;
+    object-fit:cover
+  }
+  [_nghost-baf-c339]     .quick-registration--amount ._currency-padding[ng-reflect-disabled=true],
+  [_nghost-baf-c339]     .quick-registration--amount ._currency-padding[ng-reflect-is-disabled=true],
+  [_nghost-baf-c339]     .quick-registration--country ._currency-padding[ng-reflect-disabled=true],
+  [_nghost-baf-c339]     .quick-registration--country ._currency-padding[ng-reflect-is-disabled=true] {
+    opacity:.5
+  }
+  [_nghost-baf-c339]     .quick-registration--amount ._currency-padding .select-control__button,
+  [_nghost-baf-c339]     .quick-registration--country ._currency-padding .select-control__button {
+    padding:8px 8px 8px 16px
+  }
+  [_nghost-baf-c339]     .quick-registration--country .select-control__placeholder {
+    font-family:var(--font-family-primary);
+    font-weight:600;
+    font-size:14px;
+    line-height:90%;
+    text-transform:unset;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    max-width:calc(100% - 47px)
+  }
+  [_nghost-baf-c339]     .quick-registration--country:first-child .select-control__button {
+    padding:8px 16px
+  }
+  [_nghost-baf-c339]     .select-control.show-list .select-control__button {
+    border-radius:12px 12px 0 0;
+    border:1px solid rgb(var(--purple-1000));
+    border-bottom:none;
+    box-shadow:0 0 8px rgb(var(--purple-1000))
+  }
+  [_nghost-baf-c339]     .control-error {
+    display:none
+  }
+  [_nghost-baf-c339]     .control-error.visible {
+    display:block;
+    line-height:100%;
+    letter-spacing:normal;
+    text-transform:none
+  }
+  .category-sphere[_ngcontent-baf-c339] {
+    width:115px;
+    height:115px;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden
+  }
+  .category-sphere[_ngcontent-baf-c339]:after {
+    content:"";
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+    border-radius:100%;
+    box-shadow:inset 0 8.4px 8px -6.3px rgba(142,174,255,.45),inset 0 8.4px 18.9px -6.3px rgba(142,174,255,.45),inset 0 -8.4px 18.9px -6.3px rgba(201,85,255,.45);
+    background:radial-gradient(68.57% 68.57% at 37.14% 31.43%,rgba(128,163,239,.1) 20%,rgba(105,119,218,.1) 100%)
+  }
+  @supports ((-webkit-backdrop-filter:none) or (backdrop-filter:none)) {
+    .category-sphere[_ngcontent-baf-c339]:after {
+      box-shadow:inset 0 8.4px 8px -6.3px rgba(142,174,255,.25),inset 0 8.4px 18.9px -6.3px rgba(142,174,255,.25),inset 0 -8.4px 18.9px -6.3px rgba(201,85,255,.25);
+      background:radial-gradient(68.57% 68.57% at 37.14% 31.43%,rgba(128,163,239,.1) 0,rgba(105,119,218,.1) 100%);
+      -webkit-backdrop-filter:blur(4.5px);
+      backdrop-filter:blur(4.5px)
+    }
+  }
+  .category-circle[_ngcontent-baf-c339] {
+    width:100px;
+    height:100px;
+    position:relative;
+    overflow:hidden;
+    box-shadow:inset 0 8.4px 8px -6.3px rgba(142,174,255,.25),inset 0 8.4px 18.9px -6.3px rgba(142,174,255,.25),inset 0 -8.4px 18.9px -6.3px rgba(201,85,255,.25);
+    -webkit-clip-path:circle(50% at 50% 50%);
+    clip-path:circle(50% at 50% 50%);
+    z-index:1
+  }
+  .category-circle--img[_ngcontent-baf-c339] {
+    position:absolute;
+    max-width:unset;
+    transition:all 1s ease-in-out
+  }
+  .category-circle--img[_ngcontent-baf-c339]:first-child {
+    top:63%;
+    right:-14%;
+    width:170px;
+    height:327px
+  }
+  .category-circle--img[_ngcontent-baf-c339]:last-child {
+    mix-blend-mode:screen;
+    transform-origin:64px 204px;
+    left:-20%;
+    bottom:-33%;
+    transform:rotate(-10deg);
+    width:143px;
+    height:327px
+  }
+  
+
+
+  .crypto-icons[_ngcontent-baf-c337] {
+    position:relative;
+    z-index:3;
+    display:grid;
+    justify-content:center;
+    grid-template-columns:repeat(6,-webkit-max-content);
+    grid-template-columns:repeat(6,max-content);
+    grid-gap:6px;
+    width:-webkit-max-content;
+    width:max-content;
+    background-color:rgba(var(--background-casino),.8);
+    border-radius:24px;
+    box-shadow:0 2px 4px 0 rgba(var(--white-1000),.4) inset,0 -2px 2px 0 rgba(35,5,118,.2) inset;
+    padding:8px;
+    margin:12px auto 16px
+  }
+  .crypto-icons--box[_ngcontent-baf-c337] {
+    width:28px;
+    height:28px;
+    background:rgb(var(--white-1000));
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center
+  }
+  @media screen and (min-width:768px) {
+    .crypto-icons[_ngcontent-baf-c337] {
+      margin-bottom:0
+    }
+  }
+  .crypto-icons._sport[_ngcontent-baf-c337] {
+    background:rgba(var(--background-sport),.8)
+  }
+  
+
+
+  

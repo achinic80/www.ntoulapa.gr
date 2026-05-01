@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="chevron-down.svg"
+   id="svg857"
+   version="1.1"
+   fill="none"
+   viewBox="0 0 14 8"
+   height="8"
+   width="14">
+  <metadata
+     id="metadata861">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="g850"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="4.9620807"
+     inkscape:cx="6.9388933"
+     inkscape:zoom="57.427172"
+     showgrid="false"
+     id="namedview859"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     id="g850"
+     clip-path="url(#clip0_314_4407)">
+    <path
+       style="stroke:#ffffff;stroke-width:3.60692;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path848"
+       stroke-linejoin="round"
+       stroke-linecap="round"
+       stroke-width="2"
+       stroke="#E21895"
+       d="M 2.6716983,1.8358347 7,6.1641364 11.328302,1.8358347" />
+  </g>
+  <defs
+     id="defs855">
+    <clipPath
+       id="clip0_314_4407">
+      <rect
+         id="rect852"
+         fill="white"
+         height="8"
+         width="14" />
+    </clipPath>
+  </defs>
+</svg>

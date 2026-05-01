@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ntoulapa Marketplace</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      background-color: #f5f2ed;
+    }
+  </style>
+</head>
+
+<body class="text-gray-800 font-sans">
+
+<!-- HERO -->
+<section class="relative h-[85vh] flex items-center justify-center text-center text-white"
+style="background-image:url('https://images.unsplash.com/photo-1615874959474-d609969a20ed'); background-size:cover; background-position:center;">
+  
+  <div class="absolute inset-0 bg-black/50"></div>
+
+  <div class="relative z-10 max-w-3xl px-4">
+    <h1 class="text-4xl md:text-5xl font-semibold mb-4 leading-tight">
+      Ποιοτικές κατασκευές για το σπίτι σας
+    </h1>
+
+    <p class="text-lg text-gray-200 mb-6">
+      Ντουλάπες, κουζίνες & γυψοσανίδες από επαγγελματίες σε όλη την Ελλάδα
+    </p>
+
+    <div class="flex flex-col md:flex-row gap-3 justify-center">
+      <input type="text" placeholder="Τι ψάχνετε;"
+        class="p-3 rounded-xl text-black w-full md:w-64">
+      <input type="text" placeholder="Περιοχή"
+        class="p-3 rounded-xl text-black w-full md:w-48">
+      <button class="bg-[#a47551] px-6 py-3 rounded-xl font-medium hover:bg-[#8c5f3f]">
+        Αναζήτηση
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="py-16 px-6 max-w-6xl mx-auto">
+  <h2 class="text-2xl font-semibold mb-10 text-center">Κατηγορίες έργων</h2>
+
+  <div class="grid md:grid-cols-3 gap-8">
+
+    <div class="group cursor-pointer">
+      <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6"
+        class="rounded-2xl h-72 w-full object-cover">
+      <h3 class="mt-4 text-lg font-semibold group-hover:text-[#a47551]">Ντουλάπες</h3>
+    </div>
+
+    <div class="group cursor-pointer">
+      <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d"
+        class="rounded-2xl h-72 w-full object-cover">
+      <h3 class="mt-4 text-lg font-semibold group-hover:text-[#a47551]">Κουζίνες</h3>
+    </div>
+
+    <div class="group cursor-pointer">
+      <img src="https://images.unsplash.com/photo-1599423300746-b62533397364"
+        class="rounded-2xl h-72 w-full object-cover">
+      <h3 class="mt-4 text-lg font-semibold group-hover:text-[#a47551]">Γυψοσανίδες</h3>
+    </div>
+
+  </div>
+</section>
+
+<!-- FEATURED PROJECTS -->
+<section class="py-16 px-6 bg-[#ebe6df]">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-10 text-center">Επιλεγμένα έργα</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498b"
+          class="h-56 w-full object-cover">
+        <div class="p-5">
+          <h3 class="font-semibold">Minimal κουζίνα δρυς</h3>
+          <p class="text-sm text-gray-500">Αθήνα • 6.200€</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1616627981450-6b8b6e8c1b1b"
+          class="h-56 w-full object-cover">
+        <div class="p-5">
+          <h3 class="font-semibold">Συρόμενη ντουλάπα με καθρέφτη</h3>
+          <p class="text-sm text-gray-500">Θεσσαλονίκη • 1.300€</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1599423300746-b62533397364"
+          class="h-56 w-full object-cover">
+        <div class="p-5">
+          <h3 class="font-semibold">Ψευδοροφή με ambient φωτισμό</h3>
+          <p class="text-sm text-gray-500">Πάτρα • 1.900€</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="py-16 px-6">
+  <h2 class="text-2xl font-semibold mb-10 text-center">Ιδέες & Inspiration</h2>
+
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
+    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c" class="rounded-xl">
+    <img src="https://images.unsplash.com/photo-1598300053653-5a2d0c9c78d5" class="rounded-xl">
+    <img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4" class="rounded-xl">
+    <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea" class="rounded-xl">
+  </div>
+</section>
+
+<!-- PROFESSIONALS -->
+<section class="py-16 px-6 bg-[#ebe6df]">
+  <h2 class="text-2xl font-semibold mb-10 text-center">Επαγγελματίες</h2>
+
+  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+    <div class="bg-white p-6 rounded-2xl text-center shadow-sm">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg"
+        class="w-20 h-20 mx-auto rounded-full mb-3">
+      <h3 class="font-semibold">Ξυλουργείο Παπαδόπουλος</h3>
+      <p class="text-sm text-gray-500">Αθήνα • ⭐ 4.8</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl text-center shadow-sm">
+      <img src="https://randomuser.me/api/portraits/women/45.jpg"
+        class="w-20 h-20 mx-auto rounded-full mb-3">
+      <h3 class="font-semibold">Kitchen Design Studio</h3>
+      <p class="text-sm text-gray-500">Θεσσαλονίκη • ⭐ 4.7</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl text-center shadow-sm">
+      <img src="https://randomuser.me/api/portraits/men/55.jpg"
+        class="w-20 h-20 mx-auto rounded-full mb-3">
+      <h3 class="font-semibold">Drywall Experts</h3>
+      <p class="text-sm text-gray-500">Πάτρα • ⭐ 4.9</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- LEAD FORM -->
+<section class="py-20 px-6 text-center bg-[#a47551] text-white">
+  <h2 class="text-3xl font-semibold mb-6">
+    Ζητήστε προσφορά για το έργο σας
+  </h2>
+
+  <div class="max-w-xl mx-auto grid gap-4">
+    <input placeholder="Όνομα" class="p-3 rounded text-black">
+    <input placeholder="Τηλέφωνο" class="p-3 rounded text-black">
+    <input placeholder="Περιοχή" class="p-3 rounded text-black">
+    <textarea placeholder="Περιγραφή έργου" class="p-3 rounded text-black"></textarea>
+
+    <button class="bg-black py-3 rounded font-medium">
+      Λάβε προσφορές
+    </button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-[#2d2a26] text-white py-6 text-center">
+  © 2026 Ntoulapa Marketplace
+</footer>
+
+</body>
+</html>

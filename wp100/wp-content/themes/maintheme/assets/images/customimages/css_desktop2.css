@@ -1,0 +1,67 @@
+﻿.cookies[_ngcontent-qvm-c183] {
+  position: fixed;
+  bottom: 16px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 572px;
+  padding: 0 16px;
+  margin: auto;
+  z-index: 101
+}
+
+@media screen and (min-width:1024px) {
+  .cookies[_ngcontent-qvm-c183] {
+    max-width: 642px
+  }
+}
+
+.cookies--inner[_ngcontent-qvm-c183] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 16px;
+  border: 2px solid rgba(var(--purple-900), .3);
+  background: rgba(var(--purple-1000), .7);
+  box-shadow: 0 4px 0 rgba(82, 27, 171, .4)
+}
+
+@supports ((-webkit-backdrop-filter:none) or (backdrop-filter:none)) {
+  .cookies--inner[_ngcontent-qvm-c183] {
+    background: rgba(var(--purple-1000), .5);
+    box-shadow: 0 4px 0 rgba(82, 27, 171, .2);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px)
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .cookies--inner[_ngcontent-qvm-c183] {
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px
+  }
+}
+
+.cookies--text[_ngcontent-qvm-c183] {
+  margin-bottom: 12px;
+  font-family: var(--font-family-primary);
+  font-size: 12px
+}
+
+@media screen and (min-width:1024px) {
+  .cookies--text[_ngcontent-qvm-c183] {
+    margin-bottom: 0;
+    margin-right: 12px;
+    font-size: 16px
+  }
+}
+
+.cookies--btn[_ngcontent-qvm-c183] {
+  flex-shrink: 0
+}
+
+.inside-iframe [_nghost-qvm-c183] {
+  display: none
+}

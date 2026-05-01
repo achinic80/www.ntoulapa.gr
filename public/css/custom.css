@@ -1,0 +1,122 @@
+
+
+
+
+.fl-left { float:left;}
+.mr-10 { margin-right :10px; }
+
+
+.wd-50     {  min-width:50px; }
+.wd-100    {  min-width:100px;}
+.wd-200    {  min-width:200px;}
+.wd-300    {  min-width:300px;}
+.wd-400    {  min-width:400px;}
+.wd-500    {  min-width:500px;}
+.wd-600    {  min-width:600px;}
+.wd-700    {  min-width:700px;}
+.wd-800    {  min-width:800px;}
+
+.maxwd-50  { max-width:50px;}
+.maxwd-100 { max-width:100px;}
+.maxwd-200 { max-width:200px;}
+.maxwd-300 { max-width:300px;}
+.maxwd-400 { max-width:400px;}
+.maxwd-500 { max-width:500px;}
+.maxwd-600 { max-width:600px;}
+.maxwd-700 { max-width:700px;}
+.maxwd-800 { max-width:800px;}
+
+.wd-50::before     {  content: "\00a0";}
+.wd-100::before    {  content: "\00a0";}
+.wd-200::before    {  content: "\00a0";}
+.wd-300::before    {  content: "\00a0";}
+.wd-400::before    {  content: "\00a0";}
+.wd-500::before    {  content: "\00a0";}
+.wd-600::before    {  content: "\00a0";}
+.wd-700::before    {  content: "\00a0";}
+.wd-800::before    {  content: "\00a0";}
+
+.btn_blue {
+        display:inline-flex; 
+        background:grey; 
+        border-radius:5px; padding:5px; color:white;
+        background-color: rgb(31 41 55 / 1);
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        font-size: .75rem;
+        line-height: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+}
+
+.btn_filter{
+    display:inline-flex; 
+    background:grey; 
+    border-radius:5px; padding:5px; color:white;
+    background-color: rgb(31 41 55 / 1);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+
+
+
+/* Targeting the table by its ID */
+#myTable {
+    font-size:14px;
+    width:100%;
+    background-color: #f9f9f9;
+    border:1px solid grey;
+    vertical-align: middle;;
+}
+#myTable a {     color:navy; font-weight:400;}
+#myTable th {    background-color: #818181;     color: white;   text-align: left;   }
+#myTable td {    text-align: right;   }
+#myTable tbody tr:hover {    background-color: #f1f1f1;}
+#myTable tbody tr:nth-child(even) {    background-color: #f2f2f2;  }
+#myTable tbody tr:nth-child(odd)  {    background-color: #ffffff;  }
+#myTable td {     }
+
+
+/* Targeting the table by its ID */
+#myTable2 {
+    font-size:16px;
+    width:100%;
+    background-color: #f9f9f9;
+    border:1px solid grey;
+    vertical-align: middle;;
+}
+#myTable2 a {     color:navy; font-weight:400;}
+#myTable2 th {    background-color: #818181;     color: white;   text-align: left;   }
+#myTable2 td {    text-align: right;   }
+#myTable2 tbody tr:hover {    background-color: #f1f1f1;}
+#myTable2 tbody tr:nth-child(even) {    background-color: #f2f2f2;  }
+#myTable2 tbody tr:nth-child(odd)  {    background-color: #ffffff;  }
+#myTable2 td {     }
+
+
+
+#tableRecsCatalog {
+    font-size:14px;
+    width:100%;
+    border-collapse: collapse; 
+    background-color: #f9f9f9;
+    border:1px solid grey;
+    vertical-align: middle;;
+}
+#tableRecsCatalog a {     color:navy; }
+#tableRecsCatalog th {    background-color: #818181;     color: white;   text-align: left;   }
+#tableRecsCatalog td {    text-align: left;   }
+#tableRecsCatalog tbody tr:hover {    background-color: #f1f1f1;}
+#tableRecsCatalog tbody tr:nth-child(even) {    background-color: #f2f2f2;  }
+#tableRecsCatalog tbody tr:nth-child(odd)  {    background-color: #ffffff;  }
