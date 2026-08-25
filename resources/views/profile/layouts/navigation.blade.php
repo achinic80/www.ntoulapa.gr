@@ -16,13 +16,10 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
 
-                    <x-nav-link :href="route('meli.show')" :active="request()->routeIs('meli.show')">
-                        {{ __('Meli !!') }}
+                    <x-nav-link :href="route('products.show')" :active="request()->routeIs('products.show')">
+                        {{ __('products !!') }}
                     </x-nav-link>
                     
-                    <x-nav-link :href="route('kiniseis.show')" :active="request()->routeIs('kiniseis.show')">
-                        {{ __('Kiniseis') }}
-                    </x-nav-link>                    
                 </div>
             </div>
 

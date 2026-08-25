@@ -70,7 +70,7 @@ class UserController extends Controller
         $record->Phone = $request->input('Phone');
         $record->UserGroupID = $request->input('UserGroupID');
         $record->save();
-        return redirect()->route('user.show');
+        return redirect()->route('user.show'); 
     }
     /**
      * Delete RECORD form.

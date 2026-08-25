@@ -11,6 +11,7 @@ use Illuminate\View\View;
 use App\Http\Controllers\CategoriesController;
 use App\Http\Controllers\ProjectsController;
 use App\Http\Controllers\WorkersController;
+use App\Http\Controllers\MenusController;
 
 class MainController extends Controller
 {
@@ -19,12 +20,10 @@ class MainController extends Controller
      */
     public function main(Request $request)
     {
-
-
         $data['categories'] = CategoriesController::getCategories($request);
         $data['projects'] = ProjectsController::getProjects($request);
         $data['workers'] = WorkersController::getWorkers($request);
- 
+        $data['footermenuchoices'] = MenusController::getFooterMenuChoices($request);
         $html = view('ntoulapa.main', [])->with('data', $data)->render();
         return $html;
     }

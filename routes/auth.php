@@ -9,9 +9,9 @@ use App\Http\Controllers\Auth\PasswordController;
 use App\Http\Controllers\Auth\PasswordResetLinkController;
 use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\Auth\VerifyEmailController;
-use App\Http\Controllers\Auth\AiProviderController;
-use App\Http\Controllers\Auth\KkController;
-use App\Http\Controllers\Auth\MeliController;
+use App\Http\Controllers\Auth\ProductsController;
+use App\Http\Controllers\Auth\UploadImagesController;
+
 use App\Http\Controllers\Auth\KiniseisController;
 use App\Http\Controllers\Auth\StatisticsController;
 use Illuminate\Support\Facades\Route;
@@ -63,51 +63,23 @@ Route::middleware('auth')->group(function () {
     Route::post('logout', [AuthenticatedSessionController::class, 'destroy'])
         ->name('logout');
 
-    
-     Route::post('promptgetpromptsbycategory', [PromptController::class, 'getpromptsbycategory'])->name('prompt.getpromptsbycategory');  
-     Route::get('prompt/edit/{id}', [PromptController::class, 'edit'])->name('prompt.edit');
-    Route::post('prompt/update', [PromptController::class, 'update'])->name('prompt.update');
+    Route::get('adminproducts', [ProductsController::class, 'show'])->name('products.show');
 
-     Route::get('aiprovider', [AiProviderController::class, 'show'])->name('aiprovider.show');  
-     Route::get('aiprovider/edit/{id}', [AiProviderController::class, 'edit'])->name('aiprovider.edit');  
-    Route::post('aiprovider/update', [AiProviderController::class, 'update'])->name('aiprovider.update');
+    Route::get('products/edit/{id}', [ProductsController::class, 'edit'])->name('products.edit');
+    Route::get('products/insert', [ProductsController::class, 'insert'])->name('products.insert');
+    Route::post('products/update', [ProductsController::class, 'update'])->name('products.update');
 
-    Route::get('kk', [KkController::class, 'show'])->name('kk.show');
-    Route::get('kk/edit/{id}', [KkController::class, 'edit'])->name('kk.edit');
-    Route::post('kk/update', [KkController::class, 'update'])->name('kk.update');
+    Route::get('products/destroy/{id}', [ProductsController::class, 'destroy'])->name('products.destroy');
+    Route::get('products/delete1', [ProductsController::class, 'delete1'])->name('products.delete1');
+    Route::post('products/delete2', [ProductsController::class, 'delete2'])->name('products.delete2');
 
-    Route::get('meli', [MeliController::class, 'show'])->name('meli.show');
-    Route::get('meli/edit/{id}', [MeliController::class, 'edit'])->name('meli.edit');
-    Route::get('meli/insert1/{id}', [MeliController::class, 'insert1'])->name('meli.insert1');
-    Route::post('meli/insert2', [MeliController::class, 'insert2'])->name('meli.insert2');
-    Route::post('meli/updatenew', [MeliController::class, 'updatenew'])->name('meli.updatenew');
+    Route::get('statistics', [StatisticsController::class, 'statistics'])->name('statistics.statistics');
+    Route::post('/products/toggle-field',[ProductsController::class, 'toggleField'])->name('products.toggleField');
 
 
-    Route::get('meli/delete1', [MeliController::class, 'delete1'])->name('meli.delete1');
-    Route::post('meli/delete2', [MeliController::class, 'delete2'])->name('meli.delete2');
-    Route::post('meli/delete3', [MeliController::class, 'delete3'])->name('meli.delete3');
-
-    Route::get('meli/analysi/{id}', [MeliController::class, 'analysi'])->name('meli.analysi');
-    Route::get('meli/destroy/{id}', [MeliController::class, 'destroy'])->name('meli.destroy');
-   Route::post('meli/update', [MeliController::class, 'update'])->name('meli.update');
-
-   Route::get('meli/mitroo', [MeliController::class, 'mitroo'])->name('meli.mitroo');
-
-   Route::get('kiniseis', [KiniseisController::class, 'show'])->name('kiniseis.show');
-   Route::get('kiniseis/edit/{id}', [KiniseisController::class, 'edit'])->name('kiniseis.edit');
-   Route::get('kiniseis/insert/{id}', [KiniseisController::class, 'insert'])->name('kiniseis.insert');
-   Route::get('kiniseis/destroy/{id}', [KiniseisController::class, 'destroy'])->name('kiniseis.destroy');
-  Route::post('kiniseis/update', [KiniseisController::class, 'update'])->name('kiniseis.update');
-
-
-  Route::get('statistics', [StatisticsController::class, 'statistics'])->name('statistics.statistics');
-  Route::get('maziki', [StatisticsController::class, 'maziki'])->name('statistics.maziki');
-  Route::get('maziki2', [StatisticsController::class, 'maziki2'])->name('statistics.maziki2');
-  Route::get('maziki3', [StatisticsController::class, 'maziki3'])->name('statistics.maziki3');
-
-  Route::get('meli/remains', [MeliController::class, 'remains'])->name('meli.remains');
-  Route::get('meli/remains0', [MeliController::class, 'remains0'])->name('meli.remains0');
-  Route::get('remains2years', [StatisticsController::class, 'remains2years'])->name('statistics.2years');
+    Route::post('/savebase64image',[UploadImagesController::class, 'saveBase64Image'])->name('image.savebase64image');
+    Route::post('/delbase64image',[UploadImagesController::class, 'delbase64image'])->name('image.delbase64image');
+    Route::post('/saveuploadedphotobase64image',[UploadImagesController::class, 'saveuploadedphotoBase64Image'])->name('image.saveuploadedphotobase64image');
 
 
 });

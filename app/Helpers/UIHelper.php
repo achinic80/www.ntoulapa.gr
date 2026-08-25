@@ -12,6 +12,29 @@ use App\Http\Controllers\Auth\AIProviderController;
 
 class UIHelper
 {
+
+    // δημιουργεί ένα combo με τα πεδία x 2  
+    // e.g.
+    //  Name ASC
+    //  Name DESC
+    //  Description ASC
+    //  Description DESC
+    public static function sortbychoices($sortchoices, $nowvalue)
+    {
+        $html = [];
+        $html[] = "<select size=1 name='sortby' id='sortby'>";
+        foreach($sortchoices as $key => $value) {
+        $html[] = "<option value='{$value} ASC' ";
+        if ($value . " ASC" == $nowvalue) $html[] = "selected";
+        $html[] = ">{$key} ASC</option> ";
+        $html[] = "<option value='{$value} DESC' ";
+        if ($value . " DESC" == $nowvalue) $html[] = "selected";
+        $html[] = ">{$key} DESC</option> ";
+        }
+        $html[] = "</select>";
+        return implode("\n", $html);
+    }
+
     public static function delRecButton($id)
     {
         return strtoupper($id);

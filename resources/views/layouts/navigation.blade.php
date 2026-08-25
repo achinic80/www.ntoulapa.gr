@@ -11,33 +11,12 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
- 
-
-                    <x-nav-link :href="route('meli.show')" :active="request()->routeIs('meli.show')">
-                        {{ __('Μέλη') }}
+                     <x-nav-link :href="route('products.show')" :active="request()->routeIs('products.show')">
+                        {{ __('Είδη') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('kiniseis.show')" :active="request()->routeIs('kiniseis.show')">
-                        {{ __('Κινήσεις') }}
-                    </x-nav-link>  
- 
-                    <x-nav-link :href="route('meli.mitroo')" :active="request()->routeIs('meli.mitroo')">
-                        {{ __('Μητρώο') }}
-                    </x-nav-link> 
-
-                    <x-nav-link :href="route('kk.show')" :active="request()->routeIs('kk.show')">
-                        {{ __('Κωδ.Κινήσεων') }}
-                    </x-nav-link>                      
-                    <x-nav-link :href="route('statistics.maziki')" :active="request()->routeIs('statistics.maziki')">
-                        {{ __('Μαζική χρεώση') }}
-                    </x-nav-link> 
-                    <x-nav-link :href="route('meli.delete1')" :active="request()->routeIs('meli.delete1')">
+                    <x-nav-link :href="route('products.delete1')" :active="request()->routeIs('products.delete1')">
                         {{ __('ΔΙΑΓΡΑΦΗ') }}
                     </x-nav-link> 
-
-
-
-
-
 
  <style>
  ul{
@@ -95,23 +74,6 @@ li:hover ul{
         <li><x-nav-link :href="route('statistics.statistics')" :active="request()->routeIs('statistics.statistics')">
             {{ __('Στατιστικά') }} </x-nav-link> 
         </li>
-
-        <li><x-nav-link :href="route('meli.remains')" :active="request()->routeIs('meli.remains')">
-                        {{ __('Υπολοιπα Μελών') }}
-            </x-nav-link> 
-        </li>
-
-        <li><x-nav-link :href="route('meli.remains0')" :active="request()->routeIs('meli.remains0')">
-                        {{ __('Ταμειακώς -ok-') }}
-            </x-nav-link> 
-        </li>
-
-
-        <li><x-nav-link :href="route('statistics.2years')" :active="request()->routeIs('statistics.2years')">
-                        {{ __('Υπόλοιπα 2ετίας') }}
-            </x-nav-link> 
-        </li>
-
       </ul>
   </li>
 </ul>

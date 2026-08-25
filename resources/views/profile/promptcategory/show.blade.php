@@ -25,8 +25,8 @@
             <td class="border border-gray-300 px-4 py-2 wd-200" >{{ $record['Name'] }}</td>
             <td class="border border-gray-300 px-4 py-2 wd-300" >{{ $record['Description'] }}</td>
             <td class="border border-gray-300 px-4 py-2 text-center">
-                    @include('common/editButton', ['id' => $record['ID']])
-                    @include('common/delButton', ['id' => $record['ID']])
+                    @include('common/editButton', ['id' => $record['id']])
+                    @include('common/delButton', ['id' => $record['id']])
             </td>
             </tr>
             @endforeach

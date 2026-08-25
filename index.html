@@ -1,12 +1,78 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Domain Default page</title>
-    <meta name="copyright" content="Copyright 1999-2023. Plesk International GmbH. All rights reserved.">
-    <script src="https://assets.plesk.com/static/default-website-content/public/default-website-index.js"></script>
 </head>
-<body>
-    This is a default webpage generated for <script>document.write(location.hostname)</script> by Plesk.
+<body style="padding:20px;">
+<br><br><br><br>
+
+<style>
+
+    body {
+        background:darkgrey;
+        font-family:Verdana, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-size:14px;
+    }
+
+    .table {
+        font-size:14px;
+        padding:20px;
+        width:300px;
+    }
+
+
+#tableRecsCatalog {
+    
+    font-size:14px;
+    width:100%;
+    border-collapse: collapse; 
+    background-color: #f9f9f9;
+    border:1px solid grey;
+    vertical-align: middle;;
+}
+#tableRecsCatalog a {     color:navy; }
+#tableRecsCatalog th {    background-color: #818181;     color: white;   text-align: left;   }
+#tableRecsCatalog td {    text-align: left;  padding:10px; }
+#tableRecsCatalog tbody tr:hover {    background-color: #f1f1f1;}
+#tableRecsCatalog tbody tr:nth-child(even) {    background-color: #f2f2f2;  }
+#tableRecsCatalog tbody tr:nth-child(odd)  {    background-color: #ffffff;  }
+
+
+</style>
+
+<div style="display:inline-block; padding:20px; border:1px solid #d10000; border-radius:8px;      width:auto;">
+    <div style="display:block; margin-left:-30px; margin-top:-30px; padding:20px; border-radius:8px; background:#d10000; width:auto; color:white;">
+        Local
+    </div>
+    <br>
+    <br>
+
+    <table id='tableRecsCatalog' class="table" border='1' style="">
+        <tr><td>Website default</td>
+                                <td><a target='_blank' href='http://localhost/ntoulapa.gr/public/main'>http://localhost/ntoulapa.gr/public/main</a></td>
+        </tr>
+        <tr><td>Admin page</td>
+                                <td><a target='_blank' href='http://localhost/ntoulapa.gr/public/adminproducts'>http://localhost/ntoulapa.gr/public/adminproducts</a></td>
+        <tr><td>phpMyAdmin</td>
+                                <td><a target='_blank' href='http://localhost/phpmyadmin/'>http://localhost/phpmyadmin/</a></td>
+                                
+    </table>
+</div>
+
+
+
+<div style="display:inline-block; padding:20px; border:1px solid #d10000; border-radius:8px;      width:auto;">
+    <div style="display:block; margin-left:-30px; margin-top:-30px; padding:20px; border-radius:8px; background:#d10000; width:auto; color:white;">
+        Domain
+    </div>
+    <br>
+    <br>
+    
+    <table id='tableRecsCatalog' class="table" border='1' style="">
+        <tr><td>Website default</td><td>Website default</td></tr>
+        <tr><td>Admin page</td><td>Website default</td></tr>
+    </table>
+</div>
+    
+  
 </body>
 </html>
